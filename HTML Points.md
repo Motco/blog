@@ -84,7 +84,8 @@
 > ` <meta http-equiv="Refresh" content="5;url=http://www.w3school.com.cn" /> `
 
  <br/>
-*[HTML meta tags](http://www.w3school.com.cn/tags/tag_meta.asp)*
+ 
+[HTML meta tags](http://www.w3school.com.cn/tags/tag_meta.asp)
 
 | attribute |value |description |
 |:---|:---|:---|
