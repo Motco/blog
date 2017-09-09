@@ -64,7 +64,7 @@
 > In many cases, the design and development aspects of a project are performed by different people, so keeping both aspects 
 > separated ensures both readability and simplification as in the **DRY***(Don't Repeat Yourself)* principle.
 
-#### CSS
+##### CSS
 > **Cascading Style Sheets** is a style sheet language used for describing the presentation of a document written in a markup
 > language.And **CSS** is designed primarily to enable the separation of presentation and content, including aspects such as 
 > the layout, colors, and fonts.This separation can improve content accessibility, provide more flexibility and control in 
@@ -80,7 +80,7 @@
 > Multiple Meta elements with different attributes can be used on the same page. <br/><br/>
 > The meta element has two uses: either to emulate the use of an HTTP response header field, or to embed additional metadata
 > within the HTML document.
-#### Examples of the meta element
+##### Examples of the meta element
 > - Meta element can specify HTTP headers:<br/>
 > ` <meta charset="utf-8" > `
 > - Meta element can describe the contents of the page:<br/>
