@@ -1,7 +1,9 @@
 ### HTML XML XHTML features *--extracted from [wikipedia](https://en.wikipedia.org/wiki/)*
 ---
-##### 1. [HTML](#jp1)
-##### 2. [XML](#jp2)
+#### [1. HTML](#jp1)
+#### [2. XML](#jp2)
+#### [3. XHTML](#jp3)
+
 ---
 
 #### <span id="jp1">HTML</span> 
