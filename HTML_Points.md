@@ -7,7 +7,7 @@
 
 ---
 
-### <a name="jp1">HTML</a> 
+### 1. <a name="jp1">HTML</a> 
 > **Hpertext Markup Language** is the standard markup language for creating web pages and web applications.
 > With **Cascading Style Sheets(CSS)** and **JavaScript** it forms a traid of cornerstone technologies for the *World Wide Web*.
 > Web browsers receive **HTML** documents from a web server or from local storage and render
@@ -37,7 +37,7 @@
 > leninet HTML-specific parser.
 
 ---
-### <a name="jp4">Semantic HTML</a>
+### 2. <a name="jp4">Semantic HTML</a>
 > **Semantic HTML** is a way of writing **HTML** that emphasizes the meaning of the encoded information over its presentation.
 > **HTML** has included semantic markup(new semantic elements in **HTML5**:`section`,`article`,`footer`,<br/>
 > `progress`,`nav`,`aside`,`mark`,`time`,etc) from its inception,but has also included presentational markup, such
@@ -53,7 +53,7 @@
 > without conveying any extra importance".
 
 ---
-### <a name="jp5">Separation of presentation and content</a>
+### 3. <a name="jp5">Separation of presentation and content</a>
 > **Separation of presentation and content** is a design principle where visual and design aspects are kept separate from
 > the material and structure.A typical analogy used to explain this principle is the purposeful distinction between the
 > human skeleton (as the structural component) from human flesh (as the visual component) which makes up the body's appearance.
@@ -73,7 +73,7 @@
 > rendering methods, such as on-screen, in print, by voice (via speech-based browser or screen reader), and on Braille-based
 > tactile devices.
 ---
-### <a name="jp6">Meta element</a>
+### 4. <a name="jp6">Meta element</a>
 > **Meta elements** are part of a web page's `head` section,used to specify page description,keywords and any other metadata.
 > Multiple Meta elements with different attributes can be used on the same page. <br/><br/>
 > The meta element has two uses: either to emulate the use of an HTTP response header field, or to embed additional metadata
