@@ -1,8 +1,8 @@
 ### HTML XML XHTML features *--extracted from [wikipedia](https://en.wikipedia.org/wiki/)*
 ---
-#### [1. HTML](#jp1)
-#### [2. XML](#jp2)
-#### [3. XHTML](#jp3)
+ [1. HTML](#jp1)
+ [2. XML](#jp2)
+ [3. XHTML](#jp3)
 
 ---
 
@@ -17,7 +17,7 @@
 > provide information about document text and may include other tags as sub-elements. Browsers do not display the **HTML**
 > tags, but use them to interpret the content of the page.
 
-#### <span id="jp2">XML</span>
+#### <a name="jp2">XML</a>
 > **Extensible Markup Language** is a markup language that defines a set of rules for 
 > encoding documents in a format that is both human-readable and machine-readable through
 > use of tags that can be created and defined by users.Much like natural languages,**XML** can
@@ -28,7 +28,7 @@
 > after transformation with **XSL**(*Extensible Stylesheet Language is used to refer to a family of language 
 > used to transform and render **XML** documents*).
 
-#### XHTML
+#### <a name="jp3">XHTML</a>
 > **Extensible Hypertext Markup Language** is part of the family of **XML** markup language.It mirrors or 
 > extends versions of **HTML**,which was defined as an application of **Standard Generalized Markup Language(SGML)**,
 > a flexible markup language framework.**XHTML** is an application of **XML**,a more restrictive subset of **SGML**, and
