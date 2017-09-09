@@ -1,9 +1,15 @@
 ### HTML XML XHTML features --*extracted from wikipedia*
 ---
 #### HTML 
-> **Hpertext Markup Language** is the standard markup language for creating web pages
-> and web applications.With **Cascading Style Sheets(CSS)** and **JavaScript** it forms a 
-> traid of cornerstone technologies for the *World Wide Web*.
+> **Hpertext Markup Language** is the standard markup language for creating web pages and web applications.
+> With **Cascading Style Sheets(CSS)** and **JavaScript** it forms a traid of cornerstone technologies for  
+> the *World Wide Web*.Web browsers receive **HTML** documents from a web server or from local storage and render
+> them into multimedia web pages. 
+> <br/><br/>
+> **HTML** elements are the building blocks of HTML pages, and delineated by tags,written using angle brackets.
+> Tags such as `img /` and `input /` introduce content into the page directly. Others such as `<p>...</p>` surround and
+> provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML
+> tags, but use them to interpret the content of the page.
 #### XML
 > **Extensible Markup Language** is a markup language that defines a set of rules for 
 > encoding documents in a format that is both human-readable and machine-readable through
@@ -31,5 +37,5 @@
 > semantic structures that exist in HTML need to be widely and uniformly applied to bring out the meaning of published text.
 > <br/><br/>
 > Presentational elements are deprecated in current **HTML** and **XHTML** recommendations,while some elements,like `i`and
-> `b`,are still specified as their meaning has been clearly defined "as to be stylistically offset from the normal prose without
-> conveying any extra importance".
+> `b`,are still specified as their meaning has been clearly defined "as to be stylistically offset from the normal prose 
+> without conveying any extra importance".
