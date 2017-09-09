@@ -1,4 +1,5 @@
 ### HTML XML XHTML features --*extracted from wikipedia*
+
 ---
 #### HTML 
 > **Hpertext Markup Language** is the standard markup language for creating web pages and web applications.
@@ -43,3 +44,24 @@
 > Presentational elements are deprecated in current **HTML** and **XHTML** recommendations,while some elements,like `i`and
 > `b`,are still specified as their meaning has been clearly defined "as to be stylistically offset from the normal prose 
 > without conveying any extra importance".
+
+---
+#### Separation of presentation and content 
+> **Separation of presentation and content** is a design principle where visual and design aspects are kept separate from
+> the material and structure.A typical analogy used to explain this principle is the purposeful distinction between the
+> human skeleton (as the structural component) from human flesh (as the visual component) which makes up the body's appearance.
+> <br/><br/>
+> This principle is not a rigid guideline, but serves more as best practice for keeping design and structure separate. 
+> In many cases, the design and development aspects of a project are performed by different people, so keeping both aspects 
+> separated ensures both readability and simplification as in the **DRY***(Don't Repeat Yourself)* principle.
+
+#### CSS
+> **Cascading Style Sheets** is a style sheet language used for describing the presentation of a document written in a markup
+> language.And **CSS** is designed primarily to enable the separation of presentation and content, including aspects such as 
+> the layout, colors, and fonts.This separation can improve content accessibility, provide more flexibility and control in 
+> the specification of presentation characteristics, enable multiple HTML pages to share formatting by specifying the 
+> relevant CSS in a separate .css file, and reduce complexity and repetition in the structural content.
+> <br/><br/>
+> Separation of presentation and content makes it possible to present the same markup page in different styles for different
+> rendering methods, such as on-screen, in print, by voice (via speech-based browser or screen reader), and on Braille-based
+> tactile devices.
