@@ -1,8 +1,8 @@
 ### HTML XML XHTML features *--extracted from [wikipedia](https://en.wikipedia.org/wiki/)*
 ---
-em;[1. HTML](#jp1) <br/>
-em;[2. XML](#jp2) <br/>
-em;[3. XHTML](#jp3) <br/>
+&emsp;[1. HTML](#jp1) <br/>
+&emsp;[2. XML](#jp2) <br/>
+&emsp;[3. XHTML](#jp3) <br/>
 
 ---
 
