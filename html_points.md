@@ -6,7 +6,7 @@
 > Web browsers receive **HTML** documents from a web server or from local storage and render
 > them into multimedia web pages. 
 > <br/><br/>
-> **HTML** elements are the building blocks of HTML pages, and delineated by tags,written using angle brackets.
+> **HTML** elements are the building blocks of **HTML** pages, and delineated by tags,written using angle brackets.
 > Tags such as `img /` and `input /` introduce content into the page directly. Others such as `<p>...</p>` surround and
 > provide information about document text and may include other tags as sub-elements. Browsers do not display the **HTML**
 > tags, but use them to interpret the content of the page.
@@ -32,9 +32,9 @@
 > `progress`,`nav`,`aside`,`mark`,`time`,etc) from its inception,but has also included presentational markup, such
 > as `font`, `i` and `center` tags.There are also the semantically neutral `span` and `div` tags.
 > <br/><br/>
-> In order for search-engine spiders to be able to rate the significance of pieces of text they find in HTML documents,
+> In order for search-engine spiders to be able to rate the significance of pieces of text they find in **HTML** documents,
 > and also for those creating mashups and other hybrids as well as for more automated agents as they are developed, the
-> semantic structures that exist in HTML need to be widely and uniformly applied to bring out the meaning of published text.
+> semantic structures that exist in **HTML** need to be widely and uniformly applied to bring out the meaning of published text.
 > <br/><br/>
 > Presentational elements are deprecated in current **HTML** and **XHTML** recommendations,while some elements,like `i`and
 > `b`,are still specified as their meaning has been clearly defined "as to be stylistically offset from the normal prose 
