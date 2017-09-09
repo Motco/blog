@@ -66,4 +66,21 @@
 > Separation of presentation and content makes it possible to present the same markup page in different styles for different
 > rendering methods, such as on-screen, in print, by voice (via speech-based browser or screen reader), and on Braille-based
 > tactile devices.
+---
+#### Meta element
+> **Meta elements** are part of a web page's `head` section,used to specify page description,keywords and any other metadata.
+> Multiple Meta elements with different attributes can be used on the same page. <br/><br/>
+> The meta element has two uses: either to emulate the use of an HTTP response header field, or to embed additional metadata
+> within the HTML document.
+#### Examples of the meta element
+- Meta element can specify HTTP headers:<br/>
+>  <meta charset="utf-8" > 
+- Meta element can describe the contents of the page:<br/>
+>  <meta name="description" content="Examples of the meta element" > 
+- Meta element used in search engine optimization:
+>  <meta name="googlebot" content="noodp" > 
+>  <meta name="keywords" content="HTML, CSS, XML, XHTML">
+- Meta element can refresh a Web page automatically after a given time interval:
+>  <meta http-equiv="Refresh" content="5;url=http://www.w3school.com.cn" />
 
+---
