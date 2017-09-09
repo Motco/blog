@@ -90,7 +90,7 @@
 > ` <meta http-equiv="Refresh" content="5;url=http://www.w3school.com.cn" /> `
 
  
-*[HTML meta tags from w3cschool](http://www.w3school.com.cn/tags/tag_meta.asp)*
+*[HTML meta tags from w3cschool:](http://www.w3school.com.cn/tags/tag_meta.asp)*
 
 | attribute |value |description |
 |:---|:---|:---|
