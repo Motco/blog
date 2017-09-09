@@ -82,30 +82,14 @@
 > ` <meta name="keywords" content="HTML, CSS, XML, XHTML"> `
 > - Meta element can refresh a Web page automatically after a given time interval:<br/>
 > ` <meta http-equiv="Refresh" content="5;url=http://www.w3school.com.cn" /> `
-<br/>
 
-   <table style=
-    "width: 100%;
-    max-width: 55em;
-    border: 3px solid #dedede;
-    margin: 15px auto;
-    border-collapse: collapse; 
-    empty-cells: show;">
+ <br/>
+
+ <table style="width: 100%; max-width: 55em; border: 3px solid #dedede; margin: 15px auto; border-collapse: collapse;
+              empty-cells: show;"> </table>
+ <tr style="font-weight: lighter;text-align: center; border: 1px solid #dedede;height: 30px;"> </tr>
+ <td style="height: 30px;border: 1px solid #dedede;padding: 0 10px;font-weight: lighter;"> </td>   
     
-    <tr style=
-    "font-weight:lighter;
-    text-align: center !important; 
-    border: 1px solid #dedede;
-    height: 30px;">
-    
-     <td style=
-    "height: 30px;
-    border: 1px solid #dedede;
-    padding: 0 10px;
-    font-weight:lighter;">
-    </td> 
-    </tr>
-    </table>
     
    
   
