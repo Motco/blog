@@ -10,6 +10,7 @@
 > Tags such as `img /` and `input /` introduce content into the page directly. Others such as `<p>...</p>` surround and
 > provide information about document text and may include other tags as sub-elements. Browsers do not display the **HTML**
 > tags, but use them to interpret the content of the page.
+<br/>
 #### XML
 > **Extensible Markup Language** is a markup language that defines a set of rules for 
 > encoding documents in a format that is both human-readable and machine-readable through
