@@ -10,7 +10,7 @@
 > Tags such as `img /` and `input /` introduce content into the page directly. Others such as `<p>...</p>` surround and
 > provide information about document text and may include other tags as sub-elements. Browsers do not display the **HTML**
 > tags, but use them to interpret the content of the page.
-<br/>
+
 #### XML
 > **Extensible Markup Language** is a markup language that defines a set of rules for 
 > encoding documents in a format that is both human-readable and machine-readable through
@@ -21,12 +21,14 @@
 > In addtion,**HTML** is useful for display of content;often **HTML** is used to display **XML** content
 > after transformation with **XSL**(*Extensible Stylesheet Language is used to refer to a family of language 
 > used to transform and render **XML** documents*).
+
 #### XHTML
 > **Extensible Hypertext Markup Language** is part of the family of **XML** markup language.It mirrors or 
 > extends versions of **HTML**,which was defined as an application of **Standard Generalized Markup Language(SGML)**,
 > a flexible markup language framework.**XHTML** is an application of **XML**,a more restrictive subset of **SGML**, and
 > **XHTML** documents are well-formed and could be parsed using standard **XML** parsers,while **HTML** requires a 
 > leninet HTML-specific parser.
+
 #### Semantic HTML
 > **Semantic HTML** is a way of writing **HTML** that emphasizes the meaning of the encoded information over its presentation.
 > **HTML** has included semantic markup(new semantic elements in **HTML5**:`section`,`article`,`footer`,<br/>
