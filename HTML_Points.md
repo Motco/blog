@@ -1,4 +1,4 @@
-### HTML XML XHTML features *--extracted from [wikipedia](https://en.wikipedia.org/wiki/)*
+## HTML XML XHTML features *--extracted from [wikipedia](https://en.wikipedia.org/wiki/)*
 ---
 &emsp;[1. HTML](#jp1) <br/>
 &emsp;[2. XML](#jp2) <br/>
@@ -9,7 +9,7 @@
 
 ---
 
-#### <a name="jp1">HTML</a> 
+### <a name="jp1">HTML</a> 
 > **Hpertext Markup Language** is the standard markup language for creating web pages and web applications.
 > With **Cascading Style Sheets(CSS)** and **JavaScript** it forms a traid of cornerstone technologies for the *World Wide Web*.
 > Web browsers receive **HTML** documents from a web server or from local storage and render
@@ -20,7 +20,7 @@
 > provide information about document text and may include other tags as sub-elements. Browsers do not display the **HTML**
 > tags, but use them to interpret the content of the page.
 
-#### <a name="jp2">XML</a>
+### <a name="jp2">XML</a>
 > **Extensible Markup Language** is a markup language that defines a set of rules for 
 > encoding documents in a format that is both human-readable and machine-readable through
 > use of tags that can be created and defined by users.Much like natural languages,**XML** can
@@ -31,7 +31,7 @@
 > after transformation with **XSL**(*Extensible Stylesheet Language is used to refer to a family of language 
 > used to transform and render **XML** documents*).
 
-#### <a name="jp3">XHTML</a>
+### <a name="jp3">XHTML</a>
 > **Extensible Hypertext Markup Language** is part of the family of **XML** markup language.It mirrors or 
 > extends versions of **HTML**,which was defined as an application of **Standard Generalized Markup Language(SGML)**,
 > a flexible markup language framework.**XHTML** is an application of **XML**,a more restrictive subset of **SGML**, and
@@ -39,7 +39,7 @@
 > leninet HTML-specific parser.
 
 ---
-#### <a name="jp4">Semantic HTML</a>
+### <a name="jp4">Semantic HTML</a>
 > **Semantic HTML** is a way of writing **HTML** that emphasizes the meaning of the encoded information over its presentation.
 > **HTML** has included semantic markup(new semantic elements in **HTML5**:`section`,`article`,`footer`,<br/>
 > `progress`,`nav`,`aside`,`mark`,`time`,etc) from its inception,but has also included presentational markup, such
@@ -55,7 +55,7 @@
 > without conveying any extra importance".
 
 ---
-#### <a name="jp5">Separation of presentation and content</a>
+### <a name="jp5">Separation of presentation and content</a>
 > **Separation of presentation and content** is a design principle where visual and design aspects are kept separate from
 > the material and structure.A typical analogy used to explain this principle is the purposeful distinction between the
 > human skeleton (as the structural component) from human flesh (as the visual component) which makes up the body's appearance.
@@ -64,7 +64,7 @@
 > In many cases, the design and development aspects of a project are performed by different people, so keeping both aspects 
 > separated ensures both readability and simplification as in the **DRY***(Don't Repeat Yourself)* principle.
 
-##### CSS
+#### CSS
 > **Cascading Style Sheets** is a style sheet language used for describing the presentation of a document written in a markup
 > language.And **CSS** is designed primarily to enable the separation of presentation and content, including aspects such as 
 > the layout, colors, and fonts.This separation can improve content accessibility, provide more flexibility and control in 
@@ -75,12 +75,12 @@
 > rendering methods, such as on-screen, in print, by voice (via speech-based browser or screen reader), and on Braille-based
 > tactile devices.
 ---
-#### <a name="jp6">Meta element</a>
+### <a name="jp6">Meta element</a>
 > **Meta elements** are part of a web page's `head` section,used to specify page description,keywords and any other metadata.
 > Multiple Meta elements with different attributes can be used on the same page. <br/><br/>
 > The meta element has two uses: either to emulate the use of an HTTP response header field, or to embed additional metadata
 > within the HTML document.
-##### Examples of the meta element
+#### Examples of the meta element
 > - Meta element can specify HTTP headers:<br/>
 > ` <meta charset="utf-8" > `
 > - Meta element can describe the contents of the page:<br/>
