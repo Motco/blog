@@ -1,4 +1,4 @@
-### HTML XML XHTML features --*extracted from wikipedia*
+### HTML XML XHTML features *--extracted from wikipedia*
 
 ---
 #### HTML 
@@ -65,3 +65,4 @@
 > Separation of presentation and content makes it possible to present the same markup page in different styles for different
 > rendering methods, such as on-screen, in print, by voice (via speech-based browser or screen reader), and on Braille-based
 > tactile devices.
+
