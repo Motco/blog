@@ -4,6 +4,8 @@
 &emsp;[2. Semantic HTML](#jp4) <br/>
 &emsp;[3. Separation of presentation and content](#jp5) <br/>
 &emsp;[4. Meta element](#jp6) <br/>
+&emsp;[5. Document type declaration](#jp7) <br/>
+
 
 ---
 
@@ -97,5 +99,49 @@
 | http-equiv| content-type<br/>expires<br/>refresh<br/>set-cookie | associate the content attribute with HTTP headers|
 | name | author<br/>description<br/>keywords<br/>generator<br/>revised<br/>others | associate the content attribute with a name |
 | scheme | some-text | define the format used to translate the value of the content attribute |
-  
-  
+
+---
+### 5. <a name="jp7">Document type declaration</a>
+> A **document type declaration**, or **DOCTYPE**, is an instruction that associates a particular **SGML** or **XML** document
+> (for example, a webpage) with a **document type definition (DTD)** (for example, the formal definition of a particular 
+> version of **HTML1.0 - HTML 4.0**).
+
+<br/><br/>
+
+> **HTML** documents are required to start with a **Document Type Declaration**.The original purpose of the doctype was to
+> enable parsing and validation of HTML documents by SGML tools based on the Document Type Definition (DTD).In browsers, 
+> the doctype helps to define the rendering mode,a valid doctype activates **standards mode** as opposed to **quirks mode**.
+
+<br/><br/>
+
+> - Strict **DTD** doesn't allow presentational markup with the argument that **CSS** should be used instead: <br/>
+> ` <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"> `
+> - HTML5 doctype declaration is simpler for its without referencing to a **DTD** in the form of a **URI(Uniform Resource 
+> Identifier)** or **FPI(Formal Public Identifier)**: <br/>
+> ` <!DOCTYPE html> `
+
+#### Strict Mode and Quirks Mode
+> **Quirks mode** refers to a technique used by some web browsers for the sake of maintaining backward compatibility with web
+> pages designed for Internet Explorer 5 and earlier, instead of strictly complying with **W3C** and **IETF** standards 
+> in **standards mode**. Many older web pages will only render as intended when handled by the old browers,for its
+> unimplementing the specifications of **HTML** and **CSS** before they were formulated. Thus modern web browers are generally
+> developed with multiple rendering models: in **standards mode** pages are rendered according to the **HTML** and **CSS**
+> specifications, while in **quirks mode** attempts are made to emulate the behavior of older browsers.
+<br/>
+> **Almost standards mode(aka strict mode)** matches **standards mode** except for one,the layout of images inside table
+> cells is handled the same way **quirks mode** operates,which makes the layouts of sliced-images-in-tables stabler in browers.
+<br/><br/>
+
+##### The rendering modes are generally triggering by the presence of **DOCTYPE**.
+> - The factors which will trigger **strict mode**
+>   - Full **DOCTYPE** is presented:`(in HTML4 strict DTD) $ <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+> "http://www.w3.org/TR/html4/strict.dtd"> `
+>   - Full **DOCTYPE** is presented:`(in HTML5) $ <!DOCTYPE html> `
+> - The factors which will trigger **quirks mode**
+>   - The omission of **DOCTYPE**:`<!DOCTYPE html PUBLIC> `
+>   - If anything precedes the **DOCTYPE**:
+>  `<!-- This comment will put IE 6, 7, 8, and 9 in quirks mode --> ` <br/>
+>  `<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"> `
+
+ 
+
