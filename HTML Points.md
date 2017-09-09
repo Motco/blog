@@ -73,14 +73,14 @@
 > The meta element has two uses: either to emulate the use of an HTTP response header field, or to embed additional metadata
 > within the HTML document.
 #### Examples of the meta element
-- Meta element can specify HTTP headers:
+> - Meta element can specify HTTP headers:
 > ` <meta charset="utf-8" > `
-- Meta element can describe the contents of the page:
+> - Meta element can describe the contents of the page:
 > ` <meta name="description" content="Examples of the meta element" > `
-- Meta element used in search engine optimization:
+> - Meta element used in search engine optimization:
 > ` <meta name="googlebot" content="noodp" > `
 > ` <meta name="keywords" content="HTML, CSS, XML, XHTML"> `
-- Meta element can refresh a Web page automatically after a given time interval:
+> - Meta element can refresh a Web page automatically after a given time interval:
 > ` <meta http-equiv="Refresh" content="5;url=http://www.w3school.com.cn" /> `
 
 ---
