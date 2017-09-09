@@ -84,13 +84,12 @@
 > ` <meta http-equiv="Refresh" content="5;url=http://www.w3school.com.cn" /> `
 
  <br/>
- 
+*[HTML `meta` tags](http://www.w3school.com.cn/tags/tag_meta.asp)*
 | attribute |value |description |
 |:---|:---|:---|
 | content | some-text | define meta infomation about the attribute of http-equiv or name |
 | http-equiv| content-type<br/>expires<br/>refresh<br/>set-cookie | associate the content attribute with HTTP headers|
 | name | author<br/>description<br/>keywords<br/>generator<br/>revised<br/>others | associate the content attribute with a name |
 | scheme | some-text | define the format used to translate the value of the content attribute |
-|from *[](http://www.w3school.com.cn/tags/tag_meta.asp)*|
   
   
