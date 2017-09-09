@@ -123,10 +123,11 @@
 > **Quirks mode** refers to a technique used by some web browsers for the sake of maintaining backward compatibility with web
 > pages designed for Internet Explorer 5 and earlier, instead of strictly complying with **W3C** and **IETF** standards 
 > in **standards mode**. Many older web pages will only render as intended when handled by the old browers,for its
-> unimplementing the specifications of **HTML** and **CSS** before they were formulated.<br/> 
-> Thus modern web browers are generally
-> developed with multiple rendering models: in **standards mode** pages are rendered according to the **HTML** and **CSS**
-> specifications, while in **quirks mode** attempts are made to emulate the behavior of older browsers.
+> unimplementing the specifications of **HTML** and **CSS** before they were formulated.
+> <br/><br/> 
+> Thus modern web browers are generally developed with multiple rendering models: in **standards mode** pages are rendered
+> according to the **HTML** and **CSS** specifications, while in **quirks mode** attempts are made to emulate the behavior
+> of older browsers.
 > <br/><br/>
 > **Almost standards mode(aka strict mode)** matches **standards mode** except for one,the layout of images inside table
 > cells is handled the same way **quirks mode** operates,which makes the layouts of sliced-images-in-tables stabler in browers.
