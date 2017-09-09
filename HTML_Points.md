@@ -40,6 +40,7 @@
 
 <br/>
 ---
+
 ### 2. <a name="jp4">Semantic HTML</a>
 > **Semantic HTML** is a way of writing **HTML** that emphasizes the meaning of the encoded information over its presentation.
 > **HTML** has included semantic markup(new semantic elements in **HTML5**:`section`,`article`,`footer`,<br/>
@@ -57,6 +58,7 @@
 
 <br/>
 ---
+
 ### 3. <a name="jp5">Separation of presentation and content</a>
 > **Separation of presentation and content** is a design principle where visual and design aspects are kept separate from
 > the material and structure.A typical analogy used to explain this principle is the purposeful distinction between the
@@ -79,6 +81,7 @@
 
 <br/>
 ---
+
 ### 4. <a name="jp6">Meta element</a>
 > **Meta elements** are part of a web page's `head` section,used to specify page description,keywords and any other metadata.
 > Multiple Meta elements with different attributes can be used on the same page. <br/><br/>
@@ -106,6 +109,7 @@
 
 <br/>
 ---
+
 ### 5. <a name="jp7">Document type declaration</a>
 > A **document type declaration**, or **DOCTYPE**, is an instruction that associates a particular **SGML** or **XML** document
 > (for example, a webpage) with a **Document Type Definition (DTD)** (for example, the formal definition of a particular 
