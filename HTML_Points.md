@@ -1,5 +1,6 @@
 ### HTML XML XHTML features *--extracted from [wikipedia](https://en.wikipedia.org/wiki/)*
 ---
+[TOC]
 #### [1. HTML](#jp1)
 #### [2. XML](#jp2)
 #### [3. XHTML](#jp3)
