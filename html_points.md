@@ -21,7 +21,7 @@
 > **XHTML** documents are well-formed and could be parsed using standard **XML** parsers,while **HTML** requires a 
 > leninet HTML-specific parser.
 #### Semantic HTML
-> **Semantic HTML** is a way of writing **HTML** that emphasizes the meaning of the encoded information over its presentation.
+> **Semantic HTML** is a way of writing **HTML** that emphasizes the meaning of the encoded information over its presentation.<br/>
 > **HTML** has included semantic markup(new semantic elements in **HTML5**:`section`,`article`,`footer`,<br/>
 > `progress`,`nav`,`aside`,`mark`,`time`,etc) from its inception,but has also included presentational markup, such
 > as `font`, `i` and `center` tags.There are also the semantically neutral `span` and `div` tags.
