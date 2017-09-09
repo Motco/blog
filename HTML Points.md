@@ -84,20 +84,12 @@
 > ` <meta http-equiv="Refresh" content="5;url=http://www.w3school.com.cn" /> `
 
  <br/>
-
- <table style="width: 100%; max-width: 55em; border: 3px solid #dedede; margin: 15px auto; border-collapse: collapse;
-              empty-cells: show;"> </table>
- <tr style="font-weight: lighter;text-align: center; border: 1px solid #dedede;height: 30px;"> </tr>
- <td style="height: 30px;border: 1px solid #dedede;padding: 0 10px;font-weight: lighter;"> </td>   
-    
-    
-   
-  
-  | attribute |value |description |
-  |:---|:---|:---|
-  | content   | some-text |  define meta infomation about the attribute of http-equiv or name  |  
-  | http-equiv| content-type<br/>expires<br/>refresh<br/>set-cookie|associate the content attribute with HTTP headers|
-  | name | author<br/>description<br/>keywords<br/>generator<br/>revised<br/>others|associate the content attribute with a name|
-  | scheme| some-text | define the format used to translate the value of the content attribute|
+ 
+| attribute |value |description |
+|:---|:---|:---|
+| content | some-text | define meta infomation about the attribute of http-equiv or name |
+| http-equiv| content-type<br/>expires<br/>refresh<br/>set-cookie | associate the content attribute with HTTP headers|
+| name | author<br/>description<br/>keywords<br/>generator<br/>revised<br/>others | associate the content attribute with a name |
+| scheme | some-text | define the format used to translate the value of the content attribute |
   
   
