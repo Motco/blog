@@ -34,7 +34,8 @@
 > <br/><br/>
 > In order for search-engine spiders to be able to rate the significance of pieces of text they find in **HTML** documents,
 > and also for those creating mashups and other hybrids as well as for more automated agents as they are developed, the
-> semantic structures that exist in **HTML** need to be widely and uniformly applied to bring out the meaning of published text.
+> semantic structures that exist in **HTML** need to be widely and uniformly applied to bring out the meaning of published 
+> text.
 > <br/><br/>
 > Presentational elements are deprecated in current **HTML** and **XHTML** recommendations,while some elements,like `i`and
 > `b`,are still specified as their meaning has been clearly defined "as to be stylistically offset from the normal prose 
