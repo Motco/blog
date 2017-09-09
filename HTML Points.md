@@ -82,5 +82,20 @@
 > ` <meta name="keywords" content="HTML, CSS, XML, XHTML"> `
 > - Meta element can refresh a Web page automatically after a given time interval:<br/>
 > ` <meta http-equiv="Refresh" content="5;url=http://www.w3school.com.cn" /> `
+<br/>
+  | attribute   |   value   |   description  |
+  |:-----------:|:---------:|:--------------:|
+  | content     |   some-text     |  define meta infomation about the attribute of http-equiv or name |  
+  | http-equiv  |   content-type  |  associate the content attribute with HTTP headers |
+                |   expires       |
+		|   refresh       |
+		|   set-cookie    |
+  | name        |   author        |  associate the content attribute with a name       |
+                |   description   |
+		|   keywords      |
+		|   generator     |
+		|   revised       |
+		|   others        |
+  |  scheme     |   some-text     |  define the format used to translate the value of the content attribute|
 
 ---
