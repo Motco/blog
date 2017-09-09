@@ -20,3 +20,15 @@
 > a flexible markup language framework.**XHTML** is an application of **XML**,a more restrictive subset of **SGML**, and
 > **XHTML** documents are well-formed and could be parsed using standard **XML** parsers,while **HTML** requires a 
 > leninet HTML-specific parser.
+#### Semantic HTML
+> **Semantic HTML** is a way of writing **HTML** that emphasizes the meaning of the encoded information over its
+> presentation.**HTML** has included semantic markup(new semantic elements in HTML5:`section`,`article`,`footer`,`progress`,
+> `nav`,`aside`,`mark`,`time`,etc) from its inception,but has also included presentational markup, such
+> as `font`, `i` and `center` tags.There are also the semantically neutral `span` and `div` tags.
+> <br/><br/>
+> In order for search-engine spiders to be able to rate the significance of pieces of text they find in HTML documents,
+> and also for those creating mashups and other hybrids as well as for more automated agents as they are developed, the
+> semantic structures that exist in HTML need to be widely and uniformly applied to bring out the meaning of published text.
+> <br/><br/>
+> Presentational elements are deprecated in current **HTML** and **XHTML** recommendations,while some elements,like `i`and
+> `b`,are still specified as their meaning has been clearly defined "as to be stylistically offset from the normal prose without conveying any extra importance".
