@@ -2,8 +2,8 @@
 ---
 #### HTML 
 > **Hpertext Markup Language** is the standard markup language for creating web pages and web applications.
-> With **Cascading Style Sheets(CSS)** and **JavaScript** it forms a traid of cornerstone technologies for  
-> the *World Wide Web*.Web browsers receive **HTML** documents from a web server or from local storage and render
+> With **Cascading Style Sheets(CSS)** and **JavaScript** it forms a traid of cornerstone technologies for the *World Wide Web*.
+> Web browsers receive **HTML** documents from a web server or from local storage and render
 > them into multimedia web pages. 
 > <br/><br/>
 > **HTML** elements are the building blocks of HTML pages, and delineated by tags,written using angle brackets.
