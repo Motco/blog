@@ -106,11 +106,11 @@
 
 ### 5. <a name="jp7">Document type declaration</a>
 > A **document type declaration**, or **DOCTYPE**, is an instruction that associates a particular **SGML** or **XML** document
-> (for example, a webpage) with a **document type definition (DTD)** (for example, the formal definition of a particular 
+> (for example, a webpage) with a **Document Type Definition (DTD)** (for example, the formal definition of a particular 
 > version of **HTML1.0 - HTML 4.0**)
 > <br/><br/>
 > **HTML** documents are required to start with a **Document Type Declaration**.The original purpose of the doctype was to
-> enable parsing and validation of HTML documents by SGML tools based on the Document Type Definition (DTD).In browsers, 
+> enable parsing and validation of **HTML** documents by **SGML** tools based on the **Document Type Definition (DTD)**.In browsers, 
 > the doctype helps to define the rendering mode,a valid doctype activates **standards mode** as opposed to **quirks mode**.
 > <br/><br/>
 > - Strict **DTD** doesn't allow presentational markup with the argument that **CSS** should be used instead: <br/>
