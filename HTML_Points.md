@@ -1,11 +1,9 @@
 ## HTML XML XHTML features *--extracted from [wikipedia](https://en.wikipedia.org/wiki/)*
 
-&emsp;[1. HTML](#jp1) <br/>
-&emsp;[2. XML](#jp2) <br/>
-&emsp;[3. XHTML](#jp3) <br/>
-&emsp;[4. Semantic HTML](#jp4) <br/>
-&emsp;[5. Separation of presentation and content](#jp5) <br/>
-&emsp;[6. Meta element](#jp6) <br/>
+&emsp;[1. HTML](#jp1)，[XML](#jp2)，[XHTML](#jp3) <br/>
+&emsp;[2. Semantic HTML](#jp4) <br/>
+&emsp;[3. Separation of presentation and content](#jp5) <br/>
+&emsp;[4. Meta element](#jp6) <br/>
 
 ---
 
