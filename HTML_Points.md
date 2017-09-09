@@ -38,9 +38,9 @@
 > **XHTML** documents are well-formed and could be parsed using standard **XML** parsers,while **HTML** requires a 
 > leninet HTML-specific parser.
 
+---
 <br/>
 
----
 
 ### 2. <a name="jp4">Semantic HTML</a>
 > **Semantic HTML** is a way of writing **HTML** that emphasizes the meaning of the encoded information over its presentation.
@@ -57,9 +57,9 @@
 > `b`,are still specified as their meaning has been clearly defined "as to be stylistically offset from the normal prose 
 > without conveying any extra importance".
 
+---
 <br/>
 
----
 
 ### 3. <a name="jp5">Separation of presentation and content</a>
 > **Separation of presentation and content** is a design principle where visual and design aspects are kept separate from
@@ -81,9 +81,9 @@
 > rendering methods, such as on-screen, in print, by voice (via speech-based browser or screen reader), and on Braille-based
 > tactile devices.
 
+---
 <br/>
 
----
 
 ### 4. <a name="jp6">Meta element</a>
 > **Meta elements** are part of a web page's `head` section,used to specify page description,keywords and any other metadata.
@@ -110,9 +110,8 @@
 | name | author<br/>description<br/>keywords<br/>generator<br/>revised<br/>others | associate the content attribute with a name |
 | scheme | some-text | define the format used to translate the value of the content attribute |
 
-<br/>
-
 ---
+<br/>
 
 ### 5. <a name="jp7">Document type declaration</a>
 > A **document type declaration**, or **DOCTYPE**, is an instruction that associates a particular **SGML** or **XML** document
