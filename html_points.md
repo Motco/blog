@@ -17,6 +17,6 @@
 #### XHTML
 > **Extensible Hypertext Markup Language** is part of the family of **XML** markup language.It mirrors or 
 > extends versions of **HTML**,which was defined as an application of **Standard Generalized Markup Language(SGML)**,
-> a flexible markup language framework.**XHTML** is an application of **XML**,a more restrictive subset of **SGML**.
+> a flexible markup language framework.**XHTML** is an application of **XML**,a more restrictive subset of **SGML**, and
 > **XHTML** documents are well-formed and could be parsed using standard **XML** parsers,while **HTML** requires a 
 > leninet HTML-specific parser.
