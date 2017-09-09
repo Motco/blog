@@ -78,7 +78,7 @@
 > - Meta element can describe the contents of the page:<br/>
 > ` <meta name="description" content="Examples of the meta element" > `
 > - Meta element used in search engine optimization:<br/>
-> ` <meta name="googlebot" content="noodp" > `
+> ` <meta name="googlebot" content="noodp" > ` <br/>
 > ` <meta name="keywords" content="HTML, CSS, XML, XHTML"> `
 > - Meta element can refresh a Web page automatically after a given time interval:<br/>
 > ` <meta http-equiv="Refresh" content="5;url=http://www.w3school.com.cn" /> `
