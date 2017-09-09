@@ -114,10 +114,10 @@
 > the doctype helps to define the rendering mode,a valid doctype activates **standards mode** as opposed to **quirks mode**.
 > <br/><br/>
 > - Strict **DTD** doesn't allow presentational markup with the argument that **CSS** should be used instead: <br/>
-> ` <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"> `
+> ` $ <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"> `
 > - HTML5 doctype declaration is simpler for its without referencing to a **DTD** in the form of a **URI(Uniform Resource 
 >  Identifier)** or **FPI(Formal Public Identifier)**: <br/>
-> ` <!DOCTYPE html> `
+> ` $ <!DOCTYPE html> `
 
 #### Strict Mode and Quirks Mode
 > **Quirks mode** refers to a technique used by some web browsers for the sake of maintaining backward compatibility with web
@@ -130,16 +130,17 @@
 > **Almost standards mode(aka strict mode)** matches **standards mode** except for one,the layout of images inside table
 > cells is handled the same way **quirks mode** operates,which makes the layouts of sliced-images-in-tables stabler in browers.
 
-##### The rendering modes are generally triggering by the presence of **DOCTYPE**.
+#### The rendering modes are generally triggering by the presence of **DOCTYPE**.
 > - The factors which will trigger **strict mode**
 >   - Full **DOCTYPE** is presented:<br/>
-> ` $ <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">   /* in HTML4 strict DTD */ `<br/>
+> ` $ <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"> <br/>  
+>        /* in HTML4 strict DTD */ `<br/>
 > ` $ <!DOCTYPE html>   /* in HTML5 */ `
 > - The factors which will trigger **quirks mode**
 >   - The omission of **DOCTYPE**:<br/>
-> ` <!DOCTYPE html PUBLIC> `
+> ` $ <!DOCTYPE html PUBLIC> `
 >   - If anything precedes the **DOCTYPE**:<br/>
->>  <!-- This comment will put IE 6, 7, 8, and 9 in quirks mode --> <br/>
->>  <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+> ` $ <!-- This comment will put IE 6, 7, 8, and 9 in quirks mode --> <br/> `
+> ` $ <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"> `
  
 
