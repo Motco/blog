@@ -3,6 +3,9 @@
 &emsp;[1. HTML](#jp1) <br/>
 &emsp;[2. XML](#jp2) <br/>
 &emsp;[3. XHTML](#jp3) <br/>
+&emsp;[4. Semantic HTML](#jp4) <br/>
+&emsp;[5. Separation of presentation and content](#jp5) <br/>
+&emsp;[6. Meta element](#jp6) <br/>
 
 ---
 
@@ -36,7 +39,7 @@
 > leninet HTML-specific parser.
 
 ---
-#### Semantic HTML
+#### <a name="jp4">Semantic HTML</a>
 > **Semantic HTML** is a way of writing **HTML** that emphasizes the meaning of the encoded information over its presentation.
 > **HTML** has included semantic markup(new semantic elements in **HTML5**:`section`,`article`,`footer`,<br/>
 > `progress`,`nav`,`aside`,`mark`,`time`,etc) from its inception,but has also included presentational markup, such
@@ -52,7 +55,7 @@
 > without conveying any extra importance".
 
 ---
-#### Separation of presentation and content 
+#### <a name="jp5">Separation of presentation and content</a>
 > **Separation of presentation and content** is a design principle where visual and design aspects are kept separate from
 > the material and structure.A typical analogy used to explain this principle is the purposeful distinction between the
 > human skeleton (as the structural component) from human flesh (as the visual component) which makes up the body's appearance.
@@ -72,7 +75,7 @@
 > rendering methods, such as on-screen, in print, by voice (via speech-based browser or screen reader), and on Braille-based
 > tactile devices.
 ---
-#### Meta element
+#### <a name="jp6">Meta element</a>
 > **Meta elements** are part of a web page's `head` section,used to specify page description,keywords and any other metadata.
 > Multiple Meta elements with different attributes can be used on the same page. <br/><br/>
 > The meta element has two uses: either to emulate the use of an HTTP response header field, or to embed additional metadata
