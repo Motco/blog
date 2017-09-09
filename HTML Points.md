@@ -83,7 +83,8 @@
 > - Meta element can refresh a Web page automatically after a given time interval:<br/>
 > ` <meta http-equiv="Refresh" content="5;url=http://www.w3school.com.cn" /> `
 <br/>
-<style>
+
+<style>{
   table {
     width: 100%;
     max-width: 55em;
@@ -104,14 +105,15 @@
     border: 1px solid #dedede;
     height: 30px;
 }
+}
 </style>
   
   
   | attribute   |value |description |
   |:---|:---|:---|
-  | content     | some-text                 |  define meta infomation about the attribute of http-equiv or name  |  
-  | http-equiv  | content-type<br/>expires<br/>refresh<br/>set-cookie  |  associate the content attribute with HTTP headers   |
+  | content   | some-text |  define meta infomation about the attribute of http-equiv or name  |  
+  | http-equiv| content-type<br/>expires<br/>refresh<br/>set-cookie  |  associate the content attribute with HTTP headers |
   | name | author<br/>description<br/>keywords<br/>generator<br/>revised<br/>others | associate the content attribute with a name |
-  | scheme    |   some-text               |  define the format used to translate the value of the content attribute|
+  | scheme  |   some-text   |  define the format used to translate the value of the content attribute|
   
   
