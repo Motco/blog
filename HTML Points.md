@@ -8,7 +8,7 @@
 > them into multimedia web pages. 
 > <br/><br/>
 > **HTML** elements are the building blocks of **HTML** pages, and delineated by tags,written using angle brackets.
-> Tags such as `img /` and `input /` introduce content into the page directly. Others such as `<p>...</p>` surround and
+> Tags such as `<img />` and `<input />` introduce content into the page directly. Others such as `<p>...</p>` surround and
 > provide information about document text and may include other tags as sub-elements. Browsers do not display the **HTML**
 > tags, but use them to interpret the content of the page.
 
