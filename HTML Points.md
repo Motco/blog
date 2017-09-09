@@ -46,6 +46,7 @@
 > without conveying any extra importance".
 
 ---
+---
 #### Separation of presentation and content 
 > **Separation of presentation and content** is a design principle where visual and design aspects are kept separate from
 > the material and structure.A typical analogy used to explain this principle is the purposeful distinction between the
