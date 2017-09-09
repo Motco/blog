@@ -39,6 +39,7 @@
 > leninet HTML-specific parser.
 
 <br/>
+
 ---
 
 ### 2. <a name="jp4">Semantic HTML</a>
@@ -57,6 +58,7 @@
 > without conveying any extra importance".
 
 <br/>
+
 ---
 
 ### 3. <a name="jp5">Separation of presentation and content</a>
@@ -80,6 +82,7 @@
 > tactile devices.
 
 <br/>
+
 ---
 
 ### 4. <a name="jp6">Meta element</a>
@@ -108,6 +111,7 @@
 | scheme | some-text | define the format used to translate the value of the content attribute |
 
 <br/>
+
 ---
 
 ### 5. <a name="jp7">Document type declaration</a>
