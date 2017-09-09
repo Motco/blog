@@ -91,5 +91,6 @@
 | http-equiv| content-type<br/>expires<br/>refresh<br/>set-cookie | associate the content attribute with HTTP headers|
 | name | author<br/>description<br/>keywords<br/>generator<br/>revised<br/>others | associate the content attribute with a name |
 | scheme | some-text | define the format used to translate the value of the content attribute |
+|from *[](http://www.w3school.com.cn/tags/tag_meta.asp)*|
   
   
