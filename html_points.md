@@ -22,7 +22,7 @@
 > leninet HTML-specific parser.
 #### Semantic HTML
 > **Semantic HTML** is a way of writing **HTML** that emphasizes the meaning of the encoded information over its
-> presentation.**HTML** has included semantic markup(new semantic elements in HTML5:`section`,`article`,`footer`,`progress`,
+> presentation.**HTML** has included semantic markup(new semantic elements in **HTML5**:`section`,`article`,`footer`,`progress`,
 > `nav`,`aside`,`mark`,`time`,etc) from its inception,but has also included presentational markup, such
 > as `font`, `i` and `center` tags.There are also the semantically neutral `span` and `div` tags.
 > <br/><br/>
