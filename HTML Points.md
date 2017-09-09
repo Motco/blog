@@ -84,7 +84,7 @@
 > ` <meta http-equiv="Refresh" content="5;url=http://www.w3school.com.cn" /> `
 <br/>
 
-<style>{
+<style>
   table {
     width: 100%;
     max-width: 55em;
@@ -104,7 +104,6 @@
     text-align: center !important; 
     border: 1px solid #dedede;
     height: 30px;
-}
 }
 </style>
   
