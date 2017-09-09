@@ -1,13 +1,12 @@
 ### HTML XML XHTML features *--extracted from [wikipedia](https://en.wikipedia.org/wiki/)*
 ---
-[TOC]
 #### [1. HTML](#jp1)
 #### [2. XML](#jp2)
 #### [3. XHTML](#jp3)
 
 ---
 
-#### <span id="jp1">HTML</span> 
+#### <a name="jp1">HTML</a> 
 > **Hpertext Markup Language** is the standard markup language for creating web pages and web applications.
 > With **Cascading Style Sheets(CSS)** and **JavaScript** it forms a traid of cornerstone technologies for the *World Wide Web*.
 > Web browsers receive **HTML** documents from a web server or from local storage and render
