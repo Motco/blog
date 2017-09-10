@@ -1,5 +1,5 @@
 
-#### [itshare from sunyuanSoftware](https://github.com/sunyuanSoftware/itshare)
+*from [sunyuanSoftware/itshare](https://github.com/sunyuanSoftware/itshare)*
 
 ## 目录
   - **IT学习资源网站**
