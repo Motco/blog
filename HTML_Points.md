@@ -66,7 +66,7 @@
 > <br/><br/>
 > This principle is not a rigid guideline, but serves more as best practice for keeping design and structure separate. 
 > In many cases, the design and development aspects of a project are performed by different people, so keeping both aspects 
-> separated ensures both readability and simplification as in the **DRY***(Don't Repeat Yourself)* principle.
+> separated ensures both readability and simplification as in the **DRY**(Don't Repeat Yourself) principle.
 
 #### CSS
 > **Cascading Style Sheets** is a style sheet language used for describing the presentation of a document written in a markup
