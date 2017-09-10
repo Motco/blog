@@ -7,8 +7,6 @@
 &emsp;[5. Document type declaration](#jp7) <br/>
 
 
----
-
 ### 1. <a name="jp1">HTML</a>
 > **Hpertext Markup Language** is the standard markup language for creating web pages and web applications.
 > With **Cascading Style Sheets(CSS)** and **JavaScript** it forms a traid of cornerstone technologies for the *World Wide Web*.
@@ -38,8 +36,6 @@
 > **XHTML** documents are well-formed and could be parsed using standard **XML** parsers,while **HTML** requires a 
 > leninet HTML-specific parser.
 
----
-
 
 ### 2. <a name="jp4">Semantic HTML</a>  [TOP](#jp0)
 > **Semantic HTML** is a way of writing **HTML** that emphasizes the meaning of the encoded information over its presentation.
@@ -55,8 +51,6 @@
 > Presentational elements are deprecated in current **HTML** and **XHTML** recommendations,while some elements,like `i`and
 > `b`,are still specified as their meaning has been clearly defined "as to be stylistically offset from the normal prose 
 > without conveying any extra importance".
-
----
 
 
 ### 3. <a name="jp5">Separation of presentation and content</a>  [TOP](#jp0)
@@ -78,8 +72,6 @@
 > Separation of presentation and content makes it possible to present the same markup page in different styles for different
 > rendering methods, such as on-screen, in print, by voice (via speech-based browser or screen reader), and on Braille-based
 > tactile devices.
-
----
 
 
 ### 4. <a name="jp6">Meta element</a>  [TOP](#jp0)
@@ -108,7 +100,6 @@
 | name | author<br/>description<br/>keywords<br/>generator<br/>revised<br/>others | associate the content attribute with a name |
 | scheme | some-text | define the format used to translate the value of the content attribute |
 
----
 
 ### 5. <a name="jp7">Document type declaration</a>  [TOP](#jp0)
 > A **document type declaration**, or **DOCTYPE**, is an instruction that associates a particular **SGML** or **XML** document
