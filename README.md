@@ -1,8 +1,7 @@
 
 *from [sunyuanSoftware/itshare](https://github.com/sunyuanSoftware/itshare)*
 
-#### 目录
----
+
   - **IT学习资源网站**
     + 慕课网: http://www.imooc.com
     + 极客学院: http://www.jikexueyuan.com
