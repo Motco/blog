@@ -77,7 +77,7 @@
 ### 4. <a name="jp4">Meta element</a>  [TOP](#jp0)
  - **Meta elements** are part of a web page's `head` section,used to specify page description,keywords and any other metadata.
  Multiple Meta elements with different attributes can be used on the same page. <br/><br/>
- The meta element has two uses: either to emulate the use of an HTTP response header field, or to embed additional metadata
+ - The meta element has two uses: either to emulate the use of an HTTP response header field, or to embed additional metadata
  within the HTML document.
 
 #### Examples of the meta element
