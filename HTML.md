@@ -5,6 +5,12 @@
 &emsp;[3. Separation of presentation and content](#jp3) <br/>
 &emsp;[4. Meta element](#jp4) <br/>
 &emsp;[5. Document type declaration](#jp5) <br/>
+&emsp;[6. Mojibake](#jp6) <br/>
+&emsp;[7. The common web browers](#jp7) <br/>
+&emsp;[7. HTML tags](#jp7) <br/>
+
+
+
 
 
 ### 1. Difinition and Differences
@@ -52,7 +58,10 @@
  - White Space handling in attribute values.
    - Strip leading and trailing white space.
    - Map sequences of one or more white space characters (including line breaks) to a single inter-word space.
- *[see **w3c** for more](https://www.w3.org/tr/xhtml1/#diffs)*
+<br/><br/>
+ *see [**w3:xhtml1**](https://www.w3.org/tr/xhtml1/#diffs),
+   [**w3:standards**](https://www.w3.org/standards/webdesign/htmlcss) and
+   [**w3:html5-diff](https://www.w3.org/TR/html5-diff/) for more*
 
 
 ### 2. <a name="jp2">Semantic HTML</a>  [TOP](#jp0)
@@ -151,13 +160,23 @@
 #### The rendering modes are generally triggering by the presence of **DOCTYPE**.
  - The factors which will trigger **strict mode**
    - Full **DOCTYPE** is presented: <br/>
- ` $ <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"> <!-- in HTML4 strict DTD --> `<br/>
+ ` $ <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"> <!-- in HTML4 strict DTD --> `
+   <br/>
  ` $ <!DOCTYPE html> <!-- in HTML5 --> `
-
  - The factors which will trigger **quirks mode**
    - The omission of **DOCTYPE**:<br/>
  ` $ <!DOCTYPE html PUBLIC> `
    - If anything precedes the **DOCTYPE**:<br/>
  ` $ <!-- This comment will put IE 6, 7, 8, and 9 in quirks mode -->`<br/>
  ` $ <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">`
- 
+
+
+### 6. <a name="jp6">Mojibake</a>  [TOP](#jp0)
+
+
+### 7. <a name="jp7">The common web browers</a>  [TOP](#jp0)
+
+
+### 8. <a name="jp8">HTML tags</a>  [TOP](#jp0)
+
+
