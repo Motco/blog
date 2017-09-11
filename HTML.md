@@ -133,16 +133,15 @@
 
 #### The rendering modes are generally triggering by the presence of **DOCTYPE**.
  - The factors which will trigger **strict mode**
-   - Full **DOCTYPE** is presented:
+   - Full **DOCTYPE** is presented: <br/>
  ` $ <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"> ` <br/>
  ` /* in HTML4 strict DTD */ ` <br/>
  ` $ <!DOCTYPE html>   /* in HTML5 */ `
+
  - The factors which will trigger **quirks mode**
-   - The omission of **DOCTYPE**:
+   - The omission of **DOCTYPE**:<br/>
  ` $ <!DOCTYPE html PUBLIC> `
    - If anything precedes the **DOCTYPE**:<br/>
-     $ <!-- This comment will put IE 6, 7, 8, and 9 in quirks mode -->
-   <br/> 
-     $ <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+ ` $ <!-- This comment will put IE 6, 7, 8, and 9 in quirks mode -->`<br/>
+ ` $ <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">`
  
-
