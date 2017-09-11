@@ -7,7 +7,7 @@
 &emsp;[5. Document type declaration](#jp5) <br/>
 &emsp;[6. Mojibake](#jp6) <br/>
 &emsp;[7. The common web browers](#jp7) <br/>
-&emsp;[7. HTML tags](#jp7) <br/>
+&emsp;[8. HTML tags](#jp8) <br/>
 
 
 
@@ -38,7 +38,7 @@
  versions of **HTML**,but stricter in syntax.**XHTML** documents are well-formed and could be parsed using standard
  **XML** parsers,while **HTML** requires a leninet HTML-specific parser.
 
-#### <a name="jp1">Differences between **XHTML** and **HTML4**</a>
+#### <a name="jp1">Differences between **XHTML1.x** and **HTML4**</a>
  - Documents must be well-formed in **XHTML**，meaning that all elements must have closing tags nest properly.
    - correct nested elements:`<p>here is an emphasized <em>paragraph</em>.</p>`
    - incorrect overlapping elements:~~`<p>here is an emphasized <em>paragraph.</p></em>`~~
@@ -58,10 +58,9 @@
  - White Space handling in attribute values.
    - Strip leading and trailing white space.
    - Map sequences of one or more white space characters (including line breaks) to a single inter-word space.
-<br/>
-*see [**w3:xhtml1**](https://www.w3.org/tr/xhtml1/#diffs),
-   [**w3:standards**](https://www.w3.org/standards/webdesign/htmlcss) and
-   [**w3:html5-diff](https://www.w3.org/TR/html5-diff/) for more*
+ <br/><br/>
+*see [**w3:xhtml1**](https://www.w3.org/tr/xhtml1/#diffs),[**w3:standards**](https://www.w3.org/standards/webdesign/htmlcss) and
+ [**w3:html5-diff**](https://www.w3.org/TR/html5-diff/) for more*
 
 
 ### 2. <a name="jp2">Semantic HTML</a>  [TOP](#jp0)
@@ -160,7 +159,7 @@
 #### The rendering modes are generally triggering by the presence of **DOCTYPE**.
  - The factors which will trigger **strict mode**
    - Full **DOCTYPE** is presented: <br/>
- ` $ <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"> <!-- in HTML4 strict DTD --> `<br/>
+ ` $ <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"> <!-- in HTML4 strict DTD --> `<br/> 
  ` $ <!DOCTYPE html> <!-- in HTML5 --> `
  - The factors which will trigger **quirks mode**
    - The omission of **DOCTYPE**:<br/>
