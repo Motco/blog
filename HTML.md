@@ -43,7 +43,9 @@
  - Attribute values must always be quoted,even numeric.
    - correct quoted attribute values:`<td rowspan="3">`
    - incorrect unquoted attribute values:`<td rowspan=3>`
-
+ - Attribute-value pairs must be written in full. Attribute names such as `compact` and `checked` cannot occur in elements without their value being specified.
+   - correct unminimized attributes:`<dl compact="compact">`
+   - incorrect minimized attributes:`<dl compact>`
 
 
 
