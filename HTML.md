@@ -8,31 +8,31 @@
 
 
 ### 1. Difinition and Differences
- - HTML
-   - **Hpertext Markup Language** is the standard markup language for creating web pages and web applications.
+#### HTML
+ - **Hpertext Markup Language** is the standard markup language for creating web pages and web applications.
  With **Cascading Style Sheets(CSS)** and **JavaScript** it forms a traid of cornerstone technologies for the *World Wide Web*.
  Web browsers receive **HTML** documents from a web server or from local storage and render
  them into multimedia web pages. 
-   - **HTML** elements are the building blocks of **HTML** pages, and delineated by tags,written using angle brackets.
+ - **HTML** elements are the building blocks of **HTML** pages, and delineated by tags,written using angle brackets.
  Tags such as `<img />` and `<input />` introduce content into the page directly. Others such as `<p>...</p>` surround and
  provide information about document text and may include other tags as sub-elements. Browsers do not display the **HTML**
  tags, but use them to interpret the content of the page.
-
- - XML
-   - **Extensible Markup Language** is a markup language that defines a set of rules for encoding documents in a format that 
+ 
+#### XML
+ - **Extensible Markup Language** is a markup language that defines a set of rules for encoding documents in a format that 
  is both human-readable and machine-readable through use of tags that can be created and defined by users.
-   - Much like natural languages,**XML** can grow when users creat new elements and agree on what they mean,which makes
+ - Much like natural languages,**XML** can grow when users creat new elements and agree on what they mean,which makes
  **XML** more broadly to capture intent and semantically deeper than a nonextensible markup language such as **HTML**.
  In addtion,**HTML** is useful for display of content; often **HTML** is used to display **XML** content
  after transformation with **XSL**(*Extensible Stylesheet Language is used to refer to a family of language 
  used to transform and render **XML** documents*).
 
- - XHTML
-   - **Extensible Hypertext Markup Language** is part of the family of **XML** markup language.It mirrors or extends
+#### XHTML
+ - **Extensible Hypertext Markup Language** is part of the family of **XML** markup language.It mirrors or extends
  versions of **HTML**,but more strict in syntax.**XHTML** documents are well-formed, case-sensitive and could be parsed 
  using standard **XML** parsers,while **HTML** requires a leninet HTML-specific parser.
 
- - <a name="jp1">Differences</a> [TOP](#jp0)
+#### <a name="jp1">Differences</a> [TOP](#jp0)
 > 
 > 
 
