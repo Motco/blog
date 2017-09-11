@@ -172,8 +172,8 @@
 
 ### 6. <a name="jp6">Mojibake</a>  [TOP](#jp0)
  - **Mojibake** is the garbled text as a result of text being decoded using an unintended character encoding.<br/>
-> Q: If the encoding is not specified,the software will decides it mainly via configuration or charset detection heuristics,which
- is error-prone in not-so-uncommon scenarios,for example when transferring files between Windows and Linux.<br/>
+> Q: If the encoding isn't specified,the software will decides it mainly via configuration or charset detection heuristics,
+which is error-prone in not-so-uncommon scenarios,for example when transferring files between Windows and Linux.<br/>
 > A: One solution is to use a byte order mark, but for source code and other machine readable text, many parsers don't tolerate
  this. Another is storing the encoding as metadata in the filesystem.Filesystems that support extended file attributes can store
  this as `user.charset`.
