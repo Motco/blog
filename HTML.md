@@ -1,13 +1,13 @@
 ## <a name="jp0">HTML XML XHTML features</a> *--extracted from [wikipedia](https://en.wikipedia.org/wiki/)*
 
-&emsp;[1. HTML](#jp1)，[XML](#jp2)，[XHTML](#jp3) <br/>
-&emsp;[2. Semantic HTML](#jp4) <br/>
-&emsp;[3. Separation of presentation and content](#jp5) <br/>
-&emsp;[4. Meta element](#jp6) <br/>
-&emsp;[5. Document type declaration](#jp7) <br/>
+&emsp;[1. Differences](#jp1)<br/>
+&emsp;[2. Semantic HTML](#jp2) <br/>
+&emsp;[3. Separation of presentation and content](#jp3) <br/>
+&emsp;[4. Meta element](#jp4) <br/>
+&emsp;[5. Document type declaration](#jp5) <br/>
 
 
-### 1. <a name="jp1">HTML</a>
+### 1. HTML
 > - **Hpertext Markup Language** is the standard markup language for creating web pages and web applications.
 > With **Cascading Style Sheets(CSS)** and **JavaScript** it forms a traid of cornerstone technologies for the *World Wide Web*.
 > Web browsers receive **HTML** documents from a web server or from local storage and render
@@ -18,25 +18,27 @@
 > provide information about document text and may include other tags as sub-elements. Browsers do not display the **HTML**
 > tags, but use them to interpret the content of the page.
 
-### <a name="jp2">XML</a>
+### XML
 > - **Extensible Markup Language** is a markup language that defines a set of rules for encoding documents in a format that 
 > is both human-readable and machine-readable through use of tags that can be created and defined by users.
 > <br/><br/>
 > - Much like natural languages,**XML** can grow when users creat new elements and agree on what they mean,`which makes
  **XML** more broadly to capture intent and semantically deeper than a nonextensible markup language such as **HTML**.`
-> In addtion,**HTML** is useful for display of content;often **HTML** is used to display **XML** content
+> In addtion,**HTML** is useful for display of content; often **HTML** is used to display **XML** content
 > after transformation with **XSL**(*Extensible Stylesheet Language is used to refer to a family of language 
 > used to transform and render **XML** documents*).
 
-### <a name="jp3">XHTML</a>
-> **Extensible Hypertext Markup Language** is part of the family of **XML** markup language.It mirrors or 
-> extends versions of **HTML**,which was defined as an application of **Standard Generalized Markup Language(SGML)**,
-> a flexible markup language framework.**XHTML** is an application of **XML**,a more restrictive subset of **SGML**, and
-> **XHTML** documents are well-formed and could be parsed using standard **XML** parsers,while **HTML** requires a 
-> leninet HTML-specific parser.
+### XHTML
+> **Extensible Hypertext Markup Language** is part of the family of **XML** markup language.It mirrors or extends
+> versions of **HTML**,but more strict in syntax.**XHTML** documents are well-formed, case-sensitive and could be parsed 
+> using standard **XML** parsers,while **HTML** requires a leninet HTML-specific parser.
+
+### <a name="jp1">Differences</a> [TOP](#jp0)
+> 
+> 
 
 
-### 2. <a name="jp4">Semantic HTML</a>  [TOP](#jp0)
+### 2. <a name="jp2">Semantic HTML</a>  [TOP](#jp0)
 > - **Semantic HTML** is a way of writing **HTML** that emphasizes the meaning of the encoded information over its presentation.
 > **HTML** has included semantic markup(new semantic elements in **HTML5**:`section`,`article`,`footer`,<br/>
 > `progress`,`nav`,`aside`,`mark`,`time`,etc) from its inception,but has also included presentational markup, such
@@ -52,7 +54,7 @@
 > without conveying any extra importance".
 
 
-### 3. <a name="jp5">Separation of presentation and content</a>  [TOP](#jp0)
+### 3. <a name="jp3">Separation of presentation and content</a>  [TOP](#jp0)
 > - **Separation of presentation and content** is a design principle where visual and design aspects are kept separate from
 > the material and structure.A typical analogy used to explain this principle is the purposeful distinction between the
 > human skeleton (as the structural component) from human flesh (as the visual component) which makes up the body's appearance.
@@ -73,7 +75,7 @@
 > tactile devices.
 
 
-### 4. <a name="jp6">Meta element</a>  [TOP](#jp0)
+### 4. <a name="jp4">Meta element</a>  [TOP](#jp0)
 > **Meta elements** are part of a web page's `head` section,used to specify page description,keywords and any other metadata.
 > Multiple Meta elements with different attributes can be used on the same page. <br/><br/>
 > The meta element has two uses: either to emulate the use of an HTTP response header field, or to embed additional metadata
@@ -100,7 +102,7 @@
 | scheme | some-text | define the format used to translate the value of the content attribute |
 
 
-### 5. <a name="jp7">Document type declaration</a>  [TOP](#jp0)
+### 5. <a name="jp5">Document type declaration</a>  [TOP](#jp0)
 > - A **document type declaration**, or **DOCTYPE**, is an instruction that associates a particular **SGML** or **XML** document
 > (for example, a webpage) with a **Document Type Definition (DTD)** (for example, the formal definition of a particular 
 > version of **HTML1.0 - HTML 4.0**)
