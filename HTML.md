@@ -1,4 +1,4 @@
-## <a name="jp0">HTML XML XHTML features</a> *--extracted from [wikipedia](https://en.wikipedia.org/wiki/)*
+## <a name="jp0">HTML XML XHTML features</a> *--extracted mainly from [wikipedia](https://en.wikipedia.org/wiki/)*
 
 &emsp;[1. Differences](#jp1)<br/>
 &emsp;[2. Semantic HTML](#jp2) <br/>
@@ -49,7 +49,8 @@
  - Attribute values must always be quoted,even numeric.
    - correct quoted attribute values:`<td rowspan="3">`
    - incorrect unquoted attribute values:~~`<td rowspan=3>`~~
- - Attribute-value pairs must be written in full. Attribute names such as `compact` and `checked` cannot occur in elements without their value being specified.
+ - Attribute-value pairs must be written in full. Attribute names such as `compact` and `checked` cannot occur in elements 
+ without their value being specified.
    - correct unminimized attributes:`<dl compact="compact">`
    - incorrect minimized attributes:~~`<dl compact>`~~
  - Empty elements must either have an end tag or the start tag must end with `/>`.
@@ -59,8 +60,8 @@
    - Strip leading and trailing white space.
    - Map sequences of one or more white space characters (including line breaks) to a single inter-word space.
  <br/><br/>
-*see [**w3:xhtml1**](https://www.w3.org/tr/xhtml1/#diffs),[**w3:standards**](https://www.w3.org/standards/webdesign/htmlcss) and
- [**w3:html5-diff**](https://www.w3.org/TR/html5-diff/) for more*
+*see [w3:xhtml1](https://www.w3.org/tr/xhtml1/#diffs),[w3:standards](https://www.w3.org/standards/webdesign/htmlcss) and
+ [w3:html5-diff](https://www.w3.org/TR/html5-diff/) for more*
 
 
 ### 2. <a name="jp2">Semantic HTML</a>  [TOP](#jp0)
@@ -170,6 +171,21 @@
 
 
 ### 6. <a name="jp6">Mojibake</a>  [TOP](#jp0)
+ - **Mojibake** is the garbled text as a result of text being decoded using an unintended character encoding.<br/>
+> Q: If the encoding is not specified,the software will decides it mainly via configuration or charset detection heuristics,which
+ is error-prone in not-so-uncommon scenarios,for example when transferring files between Windows and Linux.<br/>
+> A: One solution is to use a byte order mark, but for source code and other machine readable text, many parsers don't tolerate
+ this. Another is storing the encoding as metadata in the filesystem.Filesystems that support extended file attributes can store
+ this as `user.charset`.
+ <br/> <br/>
+
+> Q: 
+
+
+
+
+
+
 
 
 ### 7. <a name="jp7">The common web browers</a>  [TOP](#jp0)
