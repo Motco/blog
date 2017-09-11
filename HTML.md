@@ -134,7 +134,6 @@
  - The factors which will trigger **strict mode**
    - Full **DOCTYPE** is presented: <br/>
  ` $ <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"> <!-- in HTML4 strict DTD --> `<br/>
- <br/>
  ` $ <!DOCTYPE html> <!-- in HTML5 --> `
 
  - The factors which will trigger **quirks mode**
