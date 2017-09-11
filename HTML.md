@@ -9,7 +9,7 @@
 &emsp;[7. The common web browers](#jp7) <br/>
 &emsp;[8. HTML tags](#jp8) <br/>
 
-
+---
 
 
 
@@ -176,8 +176,11 @@
 which is error-prone in not-so-uncommon scenarios,for example when transferring files between Windows and Linux.<br/>
 > A: One solution is to use a byte order mark, but for source code and other machine readable text, many parsers don't tolerate
  this. Another is storing the encoding as metadata in the filesystem.Filesystems that support extended file attributes can store
- this as `user.charset`.
- <br/> <br/>
+ this as `user.charset`. <br/>
+<br/>
+
+> Q: 123 <br/>
+> A: 456
 
 
 
