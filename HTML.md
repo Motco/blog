@@ -38,17 +38,17 @@
 
 
 ### 2. <a name="jp4">Semantic HTML</a>  [TOP](#jp0)
-> **Semantic HTML** is a way of writing **HTML** that emphasizes the meaning of the encoded information over its presentation.
+> - **Semantic HTML** is a way of writing **HTML** that emphasizes the meaning of the encoded information over its presentation.
 > **HTML** has included semantic markup(new semantic elements in **HTML5**:`section`,`article`,`footer`,<br/>
 > `progress`,`nav`,`aside`,`mark`,`time`,etc) from its inception,but has also included presentational markup, such
-> as `font`, `i` and `center` tags.There are also the semantically neutral `span` and `div` tags.
-> <br/><br/>
-> In order for search-engine spiders to be able to rate the significance of pieces of text they find in **HTML** documents,
+> as `font`, `i` and `center` tags.There are also the semantically neutral `span` and `div` tags.<br/>
+> 
+> - In order for search-engine spiders to be able to rate the significance of pieces of text they find in **HTML** documents,
 > and also for those creating mashups and other hybrids as well as for more automated agents as they are developed, the
 > semantic structures that exist in **HTML** need to be widely and uniformly applied to bring out the meaning of published 
-> text.
-> <br/><br/>
-> Presentational elements are deprecated in current **HTML** and **XHTML** recommendations,while some elements,like `i`and
+> text.<br/>
+>
+> - Presentational elements are deprecated in current **HTML** and **XHTML** recommendations,while some elements,like `i`and
 > `b`,are still specified as their meaning has been clearly defined "as to be stylistically offset from the normal prose 
 > without conveying any extra importance".
 
@@ -111,13 +111,13 @@
 > the doctype helps to define the rendering mode,a valid doctype activates **standards mode** as opposed to **quirks mode**.
 > <br/><br/>
 > - Strict **DTD** doesn't allow presentational markup with the argument that **CSS** should be used instead: <br/>
-> ` $ <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"> `
+>   - ` $ <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"> `
 > - HTML5 doctype declaration is simpler for its without referencing to a **DTD** in the form of a **URI(Uniform Resource 
 >  Identifier)** or **FPI(Formal Public Identifier)**: <br/>
-> ` $ <!DOCTYPE html> `
+>   - ` $ <!DOCTYPE html> `
 
 #### Strict Mode and Quirks Mode
-> **Quirks mode** refers to a technique used by some web browsers for the sake of maintaining backward compatibility with web
+> - **Quirks mode** refers to a technique used by some web browsers for the sake of maintaining backward compatibility with web
 > pages designed for Internet Explorer 5 and earlier, instead of strictly complying with **W3C** and **IETF** standards 
 > in **standards mode**. Many older web pages will only render as intended when handled by the old browers,for its
 > unimplementing the specifications of **HTML** and **CSS** before they were formulated.
@@ -126,7 +126,7 @@
 > according to the **HTML** and **CSS** specifications, while in **quirks mode** attempts are made to emulate the behavior
 > of older browsers.
 > <br/><br/>
-> **Almost standards mode(aka strict mode)** matches **standards mode** except for one,the layout of images inside table
+> - **Almost standards mode(aka strict mode)** matches **standards mode** except for one,the layout of images inside table
 > cells is handled the same way **quirks mode** operates,which makes the layouts of sliced-images-in-tables stabler in browers.
 
 #### The rendering modes are generally triggering by the presence of **DOCTYPE**.
