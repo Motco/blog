@@ -58,8 +58,8 @@
  - White Space handling in attribute values.
    - Strip leading and trailing white space.
    - Map sequences of one or more white space characters (including line breaks) to a single inter-word space.
-<br/><br/>
- *see [**w3:xhtml1**](https://www.w3.org/tr/xhtml1/#diffs),
+<br/>
+*see [**w3:xhtml1**](https://www.w3.org/tr/xhtml1/#diffs),
    [**w3:standards**](https://www.w3.org/standards/webdesign/htmlcss) and
    [**w3:html5-diff](https://www.w3.org/TR/html5-diff/) for more*
 
@@ -160,8 +160,7 @@
 #### The rendering modes are generally triggering by the presence of **DOCTYPE**.
  - The factors which will trigger **strict mode**
    - Full **DOCTYPE** is presented: <br/>
- ` $ <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"> <!-- in HTML4 strict DTD --> `
-   <br/>
+ ` $ <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"> <!-- in HTML4 strict DTD --> `<br/>
  ` $ <!DOCTYPE html> <!-- in HTML5 --> `
  - The factors which will trigger **quirks mode**
    - The omission of **DOCTYPE**:<br/>
