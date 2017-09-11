@@ -32,21 +32,27 @@
  versions of **HTML**,but stricter in syntax.**XHTML** documents are well-formed and could be parsed using standard
  **XML** parsers,while **HTML** requires a leninet HTML-specific parser.
 
-#### <a name="jp1">Differences between **XHTML** and **HTML4**</a> [TOP](#jp0)
+#### <a name="jp1">Differences between **XHTML** and **HTML4**</a>
  - Documents must be well-formed in **XHTML**，meaning that all elements must have closing tags nest properly.
    - correct nested elements:`<p>here is an emphasized <em>paragraph</em>.</p>`
-   - incorrect overlapping elements:`<p>here is an emphasized <em>paragraph.</p></em>`
+   - incorrect overlapping elements:~~`<p>here is an emphasized <em>paragraph.</p></em>`~~
  - Element and attribute names must be in lower case in **XHTML** documents.
  - For non-empty elements, end tags are required.
    - correct terminated elements:`<p>here is a paragraph.</p><p>here is another paragraph.</p>`
-   - incorrect unterminated elements:`<p>here is a paragraph.<p>here is another paragraph.`
+   - incorrect unterminated elements:~~`<p>here is a paragraph.<p>here is another paragraph.`~~
  - Attribute values must always be quoted,even numeric.
    - correct quoted attribute values:`<td rowspan="3">`
-   - incorrect unquoted attribute values:`<td rowspan=3>`
+   - incorrect unquoted attribute values:~~`<td rowspan=3>`~~
  - Attribute-value pairs must be written in full. Attribute names such as `compact` and `checked` cannot occur in elements without their value being specified.
    - correct unminimized attributes:`<dl compact="compact">`
-   - incorrect minimized attributes:`<dl compact>`
-
+   - incorrect minimized attributes:~~`<dl compact>`~~
+ - Empty elements must either have an end tag or the start tag must end with `/>`.
+   - correct terminated empty elements:`<br/><hr/>`
+   - incorrect unterminated empty elements:~~`<br><hr>`~~
+ - White Space handling in attribute values.
+   - Strip leading and trailing white space.
+   - Map sequences of one or more white space characters (including line breaks) to a single inter-word space.
+ *[see **w3c** for more](https://www.w3.org/tr/xhtml1/#diffs)*
 
 
 ### 2. <a name="jp2">Semantic HTML</a>  [TOP](#jp0)
