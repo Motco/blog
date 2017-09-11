@@ -22,14 +22,14 @@
  - **Extensible Markup Language** is a markup language that defines a set of rules for encoding documents in a format that 
  is both human-readable and machine-readable through use of tags that can be created and defined by users.
  <br/><br/>
- - Much like natural languages,**XML** can grow when users creat new elements and agree on what they mean,`which makes
- **XML** more broadly to capture intent and semantically deeper than a nonextensible markup language such as **HTML**.`
+ - Much like natural languages,**XML** can grow when users creat new elements and agree on what they mean,which makes
+ **XML** more broadly to capture intent and semantically deeper than a nonextensible markup language such as **HTML**.
  In addtion,**HTML** is useful for display of content; often **HTML** is used to display **XML** content
  after transformation with **XSL**(*Extensible Stylesheet Language is used to refer to a family of language 
  used to transform and render **XML** documents*).
 
 ### XHTML
- **Extensible Hypertext Markup Language** is part of the family of **XML** markup language.It mirrors or extends
+ - **Extensible Hypertext Markup Language** is part of the family of **XML** markup language.It mirrors or extends
  versions of **HTML**,but more strict in syntax.**XHTML** documents are well-formed, case-sensitive and could be parsed 
  using standard **XML** parsers,while **HTML** requires a leninet HTML-specific parser.
 
