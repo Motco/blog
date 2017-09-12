@@ -203,23 +203,23 @@ such as `<meta charset="Big5">` or `<meta http-equiv="Content-Type" content="tex
 
 ### 7. <a name="jp7">The common web browers</a>  [TOP](#jp0)
 - Browsers are primarily intended to use the World Wide Web, they can be used to access information provided by web servers in
-private networks or files in file systems as well.The most popular web browsers are Chrome, IE, Safari, Opera and Firefox.
+private networks or files in file systems as well.The most popular web browsers are `Chrome`, `IE`, `Safari`, `Opera` and `Firefox`.
 - A web browser engine (aka web layout engine or web rendering engine) is a computer program that renders marked up content
 (such as HTML, XML, image files, etc.) and formatting information (such as CSS, XSL, etc.).
-  - Gecko is developed by the Mozilla Foundation.
-  - Goanna is a fork of Gecko developed by Moonchild Productions.
-  - KHTML is developed by the KDE project.
-  - Presto is developed by Opera Software for use in Opera. Development stopped as Opera transitioned to Blink.
-  - Tasman was developed by Microsoft for use in Internet Explorer 5 for Macintosh.
-  - Trident is developed by Microsoft for use in the Windows versions of Internet Explorer 4 to Internet Explorer 11.
-  - WebKit is a fork of KHTML by Apple Inc. used in Apple Safari, Chromium and Google Chrome.
-  - Blink is a 2013 fork of WebKit's WebCore component by Google used in Chromium, Google Chrome and Opera.
-  - Servo is an experimental web browser layout engine being developed cooperatively by Mozilla and Samsung.
-  - EdgeHTML is the engine developed by Microsoft for Edge. It is a largely rewritten fork of Trident with all legacy code removed.
+  - **Gecko** is developed by the *Mozilla Foundation*.
+  - **Goanna** is a fork of **Gecko** developed by *Moonchild Productions*.
+  - **KHTML** is developed by the *KDE project*.
+  - **Presto** is developed by *Opera Software* for use in Opera. Development stopped as Opera transitioned to **Blink**.
+  - **Tasman** was developed by *Microsoft* for use in Internet Explorer 5 for Macintosh.
+  - **Trident** is developed by *Microsoft* for use in the Windows versions of Internet Explorer 4 to Internet Explorer 11.
+  - **WebKit** is a fork of **KHTML** by *Apple Inc.* used in Apple Safari, Chromium and Google Chrome.
+  - **Blink** is a 2013 fork of WebKit's WebCore component by *Google* used in Chromium, Google Chrome and Opera.
+  - **Servo** is an experimental web browser layout engine being developed cooperatively by *Mozilla* and *Samsung*.
+  - **EdgeHTML** is the engine developed by *Microsoft* for Edge. It is a largely rewritten fork of **Trident** with all legacy code removed.
 
-<br/><br/>
+<br/>
 
-*see more from [wiki:List of web browsers](https://en.wikipedia.org/wiki/List_of_web_browsers)*
+*see more at [wiki:List of web browsers](https://en.wikipedia.org/wiki/List_of_web_browsers)*
 
 ### 8. <a name="jp8">HTML tags</a>  [TOP](#jp0)
 - HTML tags are the building blocks of HTML. They are used to define the HTML elements that should appear on a web page.HTML
