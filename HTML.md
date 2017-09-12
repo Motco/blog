@@ -224,7 +224,10 @@ private networks or files in file systems as well.The most popular web browsers 
 - HTML tags are the building blocks of HTML. They are used to define the HTML elements that should appear on a web page.HTML
 tags tell your browser which elements to present and how to present them. Where the element appears is determined by the order
 in which the tags appear.
+
 - The HTML5 tags
+*more details at [quackit:HTML Tags](https://www.quackit.com/html/tags/)*
+
 
 |   | 1 | 2  |  3 |  4 | 5  |  6 | 7  |
 |:--:|:--|:--|:--|:--|:--|:--|:--|
@@ -246,5 +249,31 @@ in which the tags appear.
 |16 |`<th>`    | `<thead>` | `<time>`       | `<title>`    | `<tr>`     | `<track>`  | `<u>`       |
 |17 |`<ul>`    | `<var>` | `<video>`      | `<wbr>`      |          
 
-*see more details at [quackit:HTML Tags](https://www.quackit.com/html/tags/) *
 
+- For example
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML Tutorial Example</title>
+</head>
+<body>
+<h1>My First Website</h1>
+<p>Less than 5 minutes into this HTML tutorial and
+I've already created my first homepage!</p>
+</body>
+</html>
+
+```
+  - The `<!DOCTYPE...>` declaration tells the browser which version of **HTML** the document is using.
+  - The `<html>` element is the document's *root* element - it can be thought of as a container that all other tags sit
+ inside (except for the !DOCTYPE declaration).
+  - The `<head>` tag contains information that is not normally viewable within your browser (such as meta tags, JavaScript and CSS),
+although the `<title>` tag is an exception to this. The content of the `<title>` tag is displayed in the browser's title bar
+(right at the very top of the browser).
+  - The `<body>` tag is the main area for your content. This is where most of your code (and viewable elements) will go.
+  - The `<h1>` tag defines a level 1 heading.
+  - The `<p>` tag defines a paragraph. This contains the body text.
+
+ 
