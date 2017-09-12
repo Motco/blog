@@ -197,13 +197,52 @@ encoding conversion has happened (by opening it in one encoding and saving it in
 
 - The difficulty of resolving an instance of mojibake varies depending on the application within which it occurs and the causes
 of it. Two of the most common applications in which mojibake may occur are web browsers and word processors.
-  - In web browsers,it can be sovled by switching the rendering engine's encoding setting to the accordant one in HTML meta tags,
+  - In web browsers,it can be sovled by switching the rendering engine's encoding to the accordant one in HTML meta tags,
 such as `<meta charset="Big5">` or `<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />`.
 
 
 ### 7. <a name="jp7">The common web browers</a>  [TOP](#jp0)
+- Browsers are primarily intended to use the World Wide Web, they can be used to access information provided by web servers in
+private networks or files in file systems as well.The most popular web browsers are Chrome, IE, Safari, Opera and Firefox.
+- A web browser engine (aka web layout engine or web rendering engine) is a computer program that renders marked up content
+(such as HTML, XML, image files, etc.) and formatting information (such as CSS, XSL, etc.).
+  - Gecko is developed by the Mozilla Foundation.
+  - Goanna is a fork of Gecko developed by Moonchild Productions.
+  - KHTML is developed by the KDE project.
+  - Presto is developed by Opera Software for use in Opera. Development stopped as Opera transitioned to Blink.
+  - Tasman was developed by Microsoft for use in Internet Explorer 5 for Macintosh.
+  - Trident is developed by Microsoft for use in the Windows versions of Internet Explorer 4 to Internet Explorer 11.
+  - WebKit is a fork of KHTML by Apple Inc. used in Apple Safari, Chromium and Google Chrome.
+  - Blink is a 2013 fork of WebKit's WebCore component by Google used in Chromium, Google Chrome and Opera.
+  - Servo is an experimental web browser layout engine being developed cooperatively by Mozilla and Samsung.
+  - EdgeHTML is the engine developed by Microsoft for Edge. It is a largely rewritten fork of Trident with all legacy code removed.
 
+<br/><br/>
+
+*see more from [wiki:List of web browsers](https://en.wikipedia.org/wiki/List_of_web_browsers)*
 
 ### 8. <a name="jp8">HTML tags</a>  [TOP](#jp0)
+- HTML tags are the building blocks of HTML. They are used to define the HTML elements that should appear on a web page.HTML
+tags tell your browser which elements to present and how to present them. Where the element appears is determined by the order
+in which the tags appear.
+- The common tags
 
-
+|   | 1 | 2  |  3 |  4 | 5  |  6 | 7  |
+|:--:|:--|:--|:--|:--|:--|:--|:--|
+| 1 | `<!--...-->`   | `<!DOCTYPE>` | `<a>`      | `<abbr>`   | `<address>` | `<area>`  | `<article>`    |
+| 2 | `<aside>`      | `<audio>`    |`<b>`       | `<base>`   | `<bdi>`     | `<bdo>`   | `<blockquote>` |
+| 3 | `<body>`       | `<br>`       | `<button>` | `<canvas>` | `<caption>` | `<cite>`  | `<code>` |
+| 4 |  `<col>`       | `<colgroup>` | `<data>` | `<datalist>` | `<dd>`      | `<del>`   | `<details>` |
+| 5 |  `<dfn>`       | `<dialog>`   | `<div>`    | `<dl>`     | `<dt>`      | `<em>`    | `<embed>` |
+| 6 | `<figcaption>` | `<figure>`   | `<footer>` | `<form>`   | `<h1>`      | `<h2>`    | `<h3>` |
+| 7 | `<h4>`         | `<h5>`       | `<h6>`     |`<fieldset>`   | `<head>`   | `<header>` | `<hgroup>`  |
+| 8 |  `<hr>`        | `<html>`     |  `<i>`  | `<iframe>`   | `<img>`    | `<input>`  | `<ins>`   |
+| 9 | `<kbd>`   | `<keygen>` | `<label>`      | `<legend>`   | `<li>`     | `<link>`   | `<main>`    |
+|10 | `<map>`   | `<mark>` | `<menu>`     | `<menuitem>` | `<meta>`   | `<meter>`  | `<nav>`     |
+|11 | `<noscript>` | `<object>` | `<ol>`    | `<optgroup>` | `<option>` | `<output>` | `<p>`       |
+|12 | `<param>` | `<pre>` | `<progress>`   | `<q>`        |`<rb>`      | `<rp>`     | `<rt>`      |
+|13 |`<rtc>`   | `<ruby>` | `<s>`          | `<samp>`     | `<script>` | `<section>`|`<select>`   |
+|14 |`<small>` | `<source>` | `<span>`       | `<strong>`   | `<style>`  | `<sub>`    | `<summary>` |
+|15 |`<sup>`   | `<table>` | `<tbody>`       | `<td>`   | `<template>` | `<textarea>` | `<tfoot>`   |
+|16 |`<th>`    | `<thead>` | `<time>`       | `<title>`    | `<tr>`     | `<track>`  | `<u>`       |
+|17 |`<ul>`    | `<var>` | `<video>`      | `<wbr>`      |
