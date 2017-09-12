@@ -118,7 +118,7 @@
  - Meta element can refresh a Web page automatically after a given time interval:<br/>
  ` <meta http-equiv="Refresh" content="5;url=http://www.w3school.com.cn" /> `
 
-*[HTML meta tags from w3cschool :](http://www.w3school.com.cn/tags/tag_meta.asp)*
+*[HTML meta tags summarized from w3cschool :](http://www.w3school.com.cn/tags/tag_meta.asp)*
 
 | attribute |value |description |
 |:---|:---|:---|
@@ -171,23 +171,34 @@
 
 
 ### 6. <a name="jp6">Mojibake</a>  [TOP](#jp0)
- - **Mojibake** is the garbled text as a result of text being decoded using an unintended character encoding.<br/>
-> Q: If the encoding isn't specified,the software will decides it mainly via configuration or charset detection heuristics,
-which is error-prone in not-so-uncommon scenarios,for example when transferring files between Windows and Linux.<br/>
-> A: One solution is to use a byte order mark, but for source code and other machine readable text, many parsers don't tolerate
- this. Another is storing the encoding as metadata in the filesystem.Filesystems that support extended file attributes can store
- this as `user.charset`. <br/>
-<br/>
+- **Mojibake** is the garbled text as a result of text being decoded using an unintended character encoding.
 
-> Q: 123 <br/>
-> A: 456
+  - If the encoding isn't specified,the software will decides it mainly via configuration or charset detection heuristics,
+which is error-prone in not-so-uncommon scenarios.<br/>
+    - For example when transferring files between Windows and Linux.One solution is to use a byte order mark, but for source
+code and other machine readable text, many parsers don't tolerate this. Another is storing the encoding as metadata in the 
+filesystem.Filesystems that support extended file attributes can store this as `user.charset`.
+    - There are many encodings that are hard to distinguish except for a few's,UFT-8,etc.Without the coding scheme being 
+assigned explictly by HTTP headings sent along with the documents or by the HTML document's meta tags subsituted fo missing 
+HTTP headings,a web browers mayn't be able to distinguish which encoding the web adopt.
 
+  - As above, mojibake also occurs when the encoding is wrongly specified.
 
+  - When there are layers of protocols, each trying to specify the encoding based on different information.For example, consider
+a web server serving a static HTML file over HTTP. The character set may be communicated to the client in any number of 3 ways:
+    - in the HTTP header. This information can be based on server configuration (for instance, when serving a file off disk) or
+controlled by the application running on the server (for dynamic websites).
+    - in the file, as an HTML meta tag (`http-equiv` or `charset`) or the encoding attribute of an XML declaration. This is the
+encoding that the author meant to save the particular file in.
+    - in the file, as a byte order mark. This is the encoding that the author's editor actually saved it in. Unless an accidental
+encoding conversion has happened (by opening it in one encoding and saving it in another), this will be correct.
+  - Lack of Hardware/Software support.Many older hardware are typically designed to support only one character set and the
+ character set typically cannot be altered.
 
-
-
-
-
+- The difficulty of resolving an instance of mojibake varies depending on the application within which it occurs and the causes
+of it. Two of the most common applications in which mojibake may occur are web browsers and word processors.
+  - In web browsers,it can be sovled by switching the rendering engine's encoding setting to the accordant one in HTML meta tags,
+such as `<meta charset="Big5">` or `<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />`.
 
 
 ### 7. <a name="jp7">The common web browers</a>  [TOP](#jp0)
