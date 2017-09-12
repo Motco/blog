@@ -209,16 +209,14 @@ private networks or files in file systems as well.The most popular web browsers 
   - **Gecko** is developed by the *Mozilla Foundation*.
   - **Goanna** is a fork of **Gecko** developed by *Moonchild Productions*.
   - **KHTML** is developed by the *KDE project*.
-  - **Presto** is developed by *Opera Software* for use in Opera. Development stopped as Opera transitioned to **Blink**.
-  - **Tasman** was developed by *Microsoft* for use in Internet Explorer 5 for Macintosh.
-  - **Trident** is developed by *Microsoft* for use in the Windows versions of Internet Explorer 4 to Internet Explorer 11.
-  - **WebKit** is a fork of **KHTML** by *Apple Inc.* used in Apple Safari, Chromium and Google Chrome.
-  - **Blink** is a 2013 fork of WebKit's WebCore component by *Google* used in Chromium, Google Chrome and Opera.
+  - **Presto** is developed by *Opera Software* for use in `Opera`. Development stopped as `Opera` transitioned to **Blink**.
+  - **Tasman** was developed by *Microsoft* for use in `Internet Explorer 5` for Macintosh.
+  - **Trident** is developed by *Microsoft* for use in the Windows versions of `Internet Explorer 4` to `Internet Explorer 11`.
+  - **WebKit** is a fork of **KHTML** by *Apple Inc.* used in `Apple Safari`, `Chromium` and `Google Chrome`.
+  - **Blink** is a 2013 fork of WebKit's WebCore component by *Google* used in `Chromium`, `Google Chrome` and `Opera`.
   - **Servo** is an experimental web browser layout engine being developed cooperatively by *Mozilla* and *Samsung*.
-  - **EdgeHTML** is the engine developed by *Microsoft* for Edge. It is a largely rewritten fork of **Trident** with all legacy code removed.
-
+  - **EdgeHTML** is the engine developed by *Microsoft* for `Edge`. It is a largely rewritten fork of **Trident** with all legacy code removed.
 <br/>
-
 *see more at [wiki:List of web browsers](https://en.wikipedia.org/wiki/List_of_web_browsers)*
 
 ### 8. <a name="jp8">HTML tags</a>  [TOP](#jp0)
