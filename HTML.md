@@ -210,7 +210,7 @@ private networks or files in file systems as well.The most popular web browsers 
   - **Goanna** is a fork of **Gecko** developed by *Moonchild Productions*.
   - **KHTML** is developed by the *KDE project*.
   - **Presto** is developed by *Opera Software* for use in `Opera`. Development stopped as `Opera` transitioned to **Blink**.
-  - **Tasman** was developed by *Microsoft* for use in `Internet Explorer 5` for Macintosh.
+  - **Tasman** is developed by *Microsoft* for use in `Internet Explorer 5` for Macintosh.
   - **Trident** is developed by *Microsoft* for use in the Windows versions of `Internet Explorer 4` to `Internet Explorer 11`.
   - **WebKit** is a fork of **KHTML** by *Apple Inc.* used in `Apple Safari`, `Chromium` and `Google Chrome`.
   - **Blink** is a 2013 fork of WebKit's WebCore component by *Google* used in `Chromium`, `Google Chrome` and `Opera`.
@@ -226,7 +226,6 @@ tags tell your browser which elements to present and how to present them. Where 
 in which the tags appear.
 
 - The HTML5 tags
-*more details at [quackit:HTML Tags](https://www.quackit.com/html/tags/)*
 
 
 |   | 1 | 2  |  3 |  4 | 5  |  6 | 7  |
@@ -264,16 +263,17 @@ in which the tags appear.
 I've already created my first homepage!</p>
 </body>
 </html>
-
 ```
-  - The `<!DOCTYPE...>` declaration tells the browser which version of **HTML** the document is using.
-  - The `<html>` element is the document's *root* element - it can be thought of as a container that all other tags sit
+   - The `<!DOCTYPE...>` declaration tells the browser which version of **HTML** the document is using.
+   - The `<html>` element is the document's *root* element - it can be thought of as a container that all other tags sit
  inside (except for the !DOCTYPE declaration).
-  - The `<head>` tag contains information that is not normally viewable within your browser (such as meta tags, JavaScript and CSS),
+   - The `<head>` tag contains information that is not normally viewable within your browser (such as meta tags, JavaScript and CSS),
 although the `<title>` tag is an exception to this. The content of the `<title>` tag is displayed in the browser's title bar
 (right at the very top of the browser).
-  - The `<body>` tag is the main area for your content. This is where most of your code (and viewable elements) will go.
-  - The `<h1>` tag defines a level 1 heading.
-  - The `<p>` tag defines a paragraph. This contains the body text.
+   - The `<body>` tag is the main area for your content. This is where most of your code (and viewable elements) will go.
+   - The `<h1>` tag defines a level 1 heading.
+   - The `<p>` tag defines a paragraph. This contains the body text.
+
+*more details at [quackit:HTML Tags](https://www.quackit.com/html/tags/)*
 
  
