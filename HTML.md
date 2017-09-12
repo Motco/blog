@@ -217,13 +217,14 @@ private networks or files in file systems as well.The most popular web browsers 
   - **Servo** is an experimental web browser layout engine being developed cooperatively by *Mozilla* and *Samsung*.
   - **EdgeHTML** is the engine developed by *Microsoft* for `Edge`. It is a largely rewritten fork of **Trident** with all legacy code removed.
 <br/>
+
 *see more at [wiki:List of web browsers](https://en.wikipedia.org/wiki/List_of_web_browsers)*
 
 ### 8. <a name="jp8">HTML tags</a>  [TOP](#jp0)
 - HTML tags are the building blocks of HTML. They are used to define the HTML elements that should appear on a web page.HTML
 tags tell your browser which elements to present and how to present them. Where the element appears is determined by the order
 in which the tags appear.
-- The common tags
+- The HTML5 tags
 
 |   | 1 | 2  |  3 |  4 | 5  |  6 | 7  |
 |:--:|:--|:--|:--|:--|:--|:--|:--|
@@ -243,4 +244,7 @@ in which the tags appear.
 |14 |`<small>` | `<source>` | `<span>`       | `<strong>`   | `<style>`  | `<sub>`    | `<summary>` |
 |15 |`<sup>`   | `<table>` | `<tbody>`       | `<td>`   | `<template>` | `<textarea>` | `<tfoot>`   |
 |16 |`<th>`    | `<thead>` | `<time>`       | `<title>`    | `<tr>`     | `<track>`  | `<u>`       |
-|17 |`<ul>`    | `<var>` | `<video>`      | `<wbr>`      |
+|17 |`<ul>`    | `<var>` | `<video>`      | `<wbr>`      |          
+
+*see more details at [quackit:HTML Tags](https://www.quackit.com/html/tags/) *
+
