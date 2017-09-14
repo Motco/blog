@@ -11,8 +11,6 @@
 
 ---
 
-
-
 ### 1. Difinition and Differences
 #### HTML
  - **Hpertext Markup Language** is the standard markup language for creating web pages and web applications.
@@ -284,7 +282,7 @@ although the `<title>` tag is an exception to this. The content of the `<title>`
 
 - Other common tags
   - The `<a>` tag defines a hyperlink and is written as `<a href=""></a>` with the linked URL between the double quotes of the `href` attribute and the anchor text between the start and end tags.
-    - `let's start with <a href="http://www.google.com/" target="_blank" title="Google">google.com</a>`
+    - `<a href="http://www.google.com/" target="_blank" title="Google">google.com</a>`
     The `target="_blank` means opening the link in a new window.
     - `<a href="#id">description</a>`
     The `#id` means linking to an element with a specified id within a page.
