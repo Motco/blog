@@ -251,7 +251,7 @@ in which the tags appear.
 
 
 
-- For example<br/>
+- The general format
 ```
 <!DOCTYPE html>
 <html>
@@ -260,16 +260,41 @@ in which the tags appear.
   </head>
   <body>
     <h1>a wonderful day</h1>
-    <p>nice day to enjoy the sunshine.<p>
+    <p>Nice day to enjoy the sunshine.However,the work progress is already delayed,you have to get up
+and <strong>finish the goal</strong> today.<p>
+    <ol>
+      <li>work list 1</li>
+      <li>work list 2</li>
+      <li>work list 3</li>
+    </ol>
   </body>
 </html>
 ```
-> 1. The `<!DOCTYPE...>` declaration tells the browser which version of **HTML** the document is using.<br/>
+> 1. The `<!DOCTYPE...>` declaration tells the browser which version of **HTML** the document is using.
 > 2. The `<html>` element is the document's *root* element - it can be thought of as a container that all other tags sit
- inside (except for the !DOCTYPE declaration).<br/>
+ inside (except for the !DOCTYPE declaration).
 > 3. The `<head>` tag contains information that is not normally viewable within your browser (such as meta tags, JavaScript and CSS),
-although the `<title>` tag is an exception to this. The content of the `<title>` tag is displayed in the browser's title bar.<br/>
-> 4. The `<body>` tag is the main area for your content. This is where most of your code (and viewable elements) will go.<br/>
-> 5. The `<h1>` tag defines a level 1 heading.<br/>
-> 6. The `<p>` tag defines a paragraph. This contains the body text.<br/>
+although the `<title>` tag is an exception to this. The content of the `<title>` tag is displayed in the browser's title bar.
+> 4. The `<body>` tag is the main area for your content. This is where most of your code (and viewable elements) will go.
+> 5. The `<h1>` tag defines a level 1 heading.
+> 6. The `<p>` tag defines a paragraph. This contains the body text.
+> 7. The `<strong>` tag can be used to convey importance in a heading, caption, or paragraph.
+> 8. The `<ol>` element is used with the `<li>` element. The `<ol>` tag declares the ordered list, and the `<li>` tag declares each list item.(same syntax with `<ul>`)<br/>
+
+- Other common tags
+  - The <a> tag is written as `<a href=""></a>` with the linked URL between the double quotes of the `href` attribute and the anchor text between the start and end tags.
+    - `let's start with <a href="http://www.google.com/" target="_blank" title="Google">google.com</a>`<br/>
+    `target="_blank` means opening the link in a new window.
+    - `<a href="#id">description</a>`<br/>
+    `#id` means linking to an element with a specified id within a page.
+  - The `<div>` tag defines a division or a section in an HTML document,is very often used together with CSS, to layout a web page.
+  - `<img src="smiley.gif" alt="Smiley face" height="42" width="42">`<br/>
+  The `<img>` tag defines an image in an HTML page and has two required attributes: `src` and `alt`.<br/>
+  
+*see more at [w3s:tags](https://www.w3schools.com/tags/)*  
+    
+
+
+
+
  
