@@ -283,7 +283,7 @@ although the `<title>` tag is an exception to this. The content of the `<title>`
 > 8. The `<ol>` element is used with the `<li>` element. The `<ol>` tag declares the ordered list, and the `<li>` tag declares each list item.(same syntax with `<ul>`)<br/>
 
 - Other common tags
-  - The <a> tag defines a hyperlink and is written as `<a href=""></a>` with the linked URL between the double quotes of the `href` attribute and the anchor text between the start and end tags.
+  - The `<a>` tag defines a hyperlink and is written as `<a href=""></a>` with the linked URL between the double quotes of the `href` attribute and the anchor text between the start and end tags.
     - `let's start with <a href="http://www.google.com/" target="_blank" title="Google">google.com</a>`
     The `target="_blank` means opening the link in a new window.
     - `<a href="#id">description</a>`
