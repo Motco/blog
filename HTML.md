@@ -251,7 +251,7 @@ in which the tags appear.
 
 
 
-- For example
+- For example<br/>
 ```
 <!DOCTYPE html>
 <html>
