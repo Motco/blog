@@ -59,7 +59,8 @@
  - White Space handling in attribute values.
    - Strip leading and trailing white space.
    - Map sequences of one or more white space characters (including line breaks) to a single inter-word space.
- <br/><br/>
+ <br/>
+ 
 *see [w3:xhtml1](https://www.w3.org/tr/xhtml1/#diffs),[w3:standards](https://www.w3.org/standards/webdesign/htmlcss) and
  [w3:html5-diff](https://www.w3.org/TR/html5-diff/) for more*
 
