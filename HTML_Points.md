@@ -282,14 +282,14 @@ although the `<title>` tag is an exception to this. The content of the `<title>`
 > 8. The `<ol>` element is used with the `<li>` element. The `<ol>` tag declares the ordered list, and the `<li>` tag declares each list item.(same syntax with `<ul>`)<br/>
 
 - Other common tags
-  - The <a> tag is written as `<a href=""></a>` with the linked URL between the double quotes of the `href` attribute and the anchor text between the start and end tags.
-    - `let's start with <a href="http://www.google.com/" target="_blank" title="Google">google.com</a>`<br/>
+  - The <a> tag defines a hyperlink and is written as `<a href=""></a>` with the linked URL between the double quotes of the `href` attribute and the anchor text between the start and end tags.
+    - `let's start with <a href="http://www.google.com/" target="_blank" title="Google">google.com</a>`
     The `target="_blank` means opening the link in a new window.
-    - `<a href="#id">description</a>`<br/>
+    - `<a href="#id">description</a>`
     The `#id` means linking to an element with a specified id within a page.
   - The `<div>` tag defines a division or a section in an HTML document,is very often used together with CSS, to layout a web page.
-  - `<img src="smiley.gif" alt="Smiley face" height="42" width="42">`<br/>
-  The `<img>` tag defines an image in an HTML page and has two required attributes: `src` and `alt`.<br/>
+  - The `<img>` tag defines an image in an HTML page and has two required attributes: `src` and `alt`.<br/>
+  `<img src="smiley.gif" alt="Smiley face" height="42" width="42">`
   
 *see more at [w3s:tags](https://www.w3schools.com/tags/)*  
     
