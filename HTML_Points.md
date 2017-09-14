@@ -255,13 +255,13 @@ in which the tags appear.
 ```
 <!DOCTYPE html>
 <html>
-<head>
-  <title>HTML Tutorial Example</title>
-</head>
-<body>
-  <h1>a wonderful day</h1>
+  <head>
+    <title>HTML Tutorial Example</title>
+  </head>
+  <body>
+    <h1>a wonderful day</h1>
     <p>nice day to enjoy the sunshine.<p>
-</body>
+  </body>
 </html>
 ```
 > 1. The `<!DOCTYPE...>` declaration tells the browser which version of **HTML** the document is using.<br/>
