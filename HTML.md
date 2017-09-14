@@ -225,7 +225,8 @@ private networks or files in file systems as well.The most popular web browsers 
 tags tell your browser which elements to present and how to present them. Where the element appears is determined by the order
 in which the tags appear.
 
-- The HTML5 tags
+- The HTML5 tags<br/>
+*more details at [quackit:HTML Tags](https://www.quackit.com/html/tags/)*
 
 
 |   | 1 | 2  |  3 |  4 | 5  |  6 | 7  |
@@ -250,8 +251,7 @@ in which the tags appear.
 
 
 
-- For example<br/>
-*more details at [quackit:HTML Tags](https://www.quackit.com/html/tags/)*
+- For example
 ```
 <!DOCTYPE html>
 <html>
