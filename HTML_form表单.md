@@ -48,9 +48,9 @@ target|_blank<br/>_self<br/>_parent<br/>_top<br/>framename|规定在何处打开
 
 - 多数情况下被用到的表单标签是 `<input>` 标签，输入类型是由类型属性 `<type>` 定义的，常用的输入类型有
   - 文本域 Text Field：通过 `<input type="text" name=""/>` 标签设定
-  - 密码字段 Password：通过 `<input type="password" name=""/>` 标签定义
-  - 提交按钮 Submit Button：通过 `<input type="submit" value=""/>` 标签定义
-  - 重置按钮 Reset Button：通过 `<input type="reset" value=""/>` 标签定义
+  - 密码字段 Password：通过 `<input type="password" name="password"/>` 标签定义
+  - 提交按钮 Submit Button：通过 `<input type="submit" value="submit"/>` 标签定义
+  - 重置按钮 Reset Button：通过 `<input type="reset" value="reset"/>` 标签定义
   - 单选按钮 Radio Buttons：通过 `<input type="radio" name="" value=""/>` 标签定义
   - 复选框 Checkbox：通过 `<input type="checkbox" name="" value=""/>` 标签定义<br/>
 **note：**<br/>
