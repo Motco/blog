@@ -56,10 +56,8 @@
    - incorrect unterminated empty elements:~~`<br><hr>`~~
  - White Space handling in attribute values.
    - Strip leading and trailing white space.
-   - Map sequences of one or more white space characters (including line breaks) to a single inter-word space.
- <br/>
- 
-*see [w3:xhtml1](https://www.w3.org/tr/xhtml1/#diffs),[w3:standards](https://www.w3.org/standards/webdesign/htmlcss) and
+   - Map sequences of one or more white space characters (including line breaks) to a single inter-word space.<br/><br/>
+ *see [w3:xhtml1](https://www.w3.org/tr/xhtml1/#diffs),[w3:standards](https://www.w3.org/standards/webdesign/htmlcss) and
  [w3:html5-diff](https://www.w3.org/TR/html5-diff/) for more*
 
 
@@ -115,8 +113,8 @@
  ` <meta name="googlebot" content="noodp" > ` <br/>
  ` <meta name="keywords" content="HTML, CSS, XML, XHTML"> `
  - Meta element can refresh a Web page automatically after a given time interval:<br/>
- ` <meta http-equiv="Refresh" content="5;url=http://www.w3school.com.cn" /> `
-
+ ` <meta http-equiv="Refresh" content="5;url=http://www.w3school.com.cn" /> `<br/>
+ 
 *[HTML meta tags summarized from w3cschool :](http://www.w3school.com.cn/tags/tag_meta.asp)*
 
 | attribute |value |description |
@@ -196,7 +194,7 @@ encoding conversion has happened (by opening it in one encoding and saving it in
 
 - The difficulty of resolving an instance of mojibake varies depending on the application within which it occurs and the causes
 of it. Two of the most common applications in which mojibake may occur are web browsers and word processors.
-  - In web browsers,it can be sovled by switching the rendering engine's encoding to the accordant one in HTML meta tags,
+  - In web browsers,it can be sovled by switching the  encoding to the accordant one in HTML meta tags,
 such as `<meta charset="Big5">` or `<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />`.
 
 
@@ -214,9 +212,7 @@ private networks or files in file systems as well.The most popular web browsers 
   - **WebKit** is a fork of **KHTML** by *Apple Inc.* used in `Apple Safari`, `Chromium` and `Google Chrome`.
   - **Blink** is a 2013 fork of WebKit's WebCore component by *Google* used in `Chromium`, `Google Chrome` and `Opera`.
   - **Servo** is an experimental web browser layout engine being developed cooperatively by *Mozilla* and *Samsung*.
-  - **EdgeHTML** is the engine developed by *Microsoft* for `Edge`. It is a largely rewritten fork of **Trident** with all legacy code removed.
-<br/>
-
+  - **EdgeHTML** is the engine developed by *Microsoft* for `Edge`. It is a largely rewritten fork of **Trident** with all legacy code removed.<br/><br/>
 *see more at [wiki:List of web browsers](https://en.wikipedia.org/wiki/List_of_web_browsers)*
 
 ### 8. <a name="jp8">HTML tags</a>  [TOP](#jp0)
@@ -288,9 +284,8 @@ although the `<title>` tag is an exception to this. The content of the `<title>`
     The `#id` means linking to an element with a specified id within a page.
   - The `<div>` tag defines a division or a section in an HTML document,is very often used together with CSS, to layout a web page.
   - The `<img>` tag defines an image in an HTML page and has two required attributes: `src` and `alt`.<br/>
-  `<img src="smiley.gif" alt="Smiley face" height="42" width="42">`
-  
-*see more at [w3s:tags](https://www.w3schools.com/tags/)*  
+  `<img src="smiley.gif" alt="Smiley face" height="42" width="42">`<br/><br/>
+  *see more at [w3s:tags](https://www.w3schools.com/tags/)*  
     
 
 
