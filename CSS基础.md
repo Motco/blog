@@ -1,4 +1,4 @@
-## CSS 基础
+## <a name="jp0">CSS 基础</a>
 &emsp;&emsp;[1. CSS 定义与作用](#jp1)<br/>
 &emsp;&emsp;[2. CSS 引入的3种方式](#jp2)<br/>
 &emsp;&emsp;[3. 样式优先级](#jp3)<br/>
@@ -72,7 +72,7 @@
         <h1 style="color:blue;margin-left:30px;">This is a heading</h1>
     ```
 
-#### <a name="jp3">3. CSS 样式优先级</a>
+#### <a name="jp3">3. CSS 样式优先级</a> [TOP](#jp0)
 - 一般而言，所有的样式会根据下面的规则层叠于一个新的虚拟样式表中；其中，内联样式（在 `HTML` 元素内部）拥有最高的优先级别
     1. 浏览器缺省设置
     2. 外部样式表
@@ -133,7 +133,7 @@
   - 属性书写顺序，同一 rule set 下属性应按功能分组，并以`布局 > 尺寸 > 文本相关 > 视觉效果` 的顺序书写 <br/><br/>
 *see more at [Code Guide @AlloyTeam](http://alloyteam.github.io/CodeGuide/#css)，[styleguide @fex-team](https://github.com/fex-team/styleguide), [cnblog: 书写规范](http://www.cnblogs.com/iceyhu/p/4424150.html) and [勤奋蜂前端编码规范](https://www.gitbook.com/book/proyang/codeguide/details)*
 
-#### <a name="jp5">5. 文件路径</a>
+#### <a name="jp5">5. 文件路径</a> [TOP](#jp0)
 - 如何在饥人谷Js bin中展示图片
   - 上传本地图片到网络图床，获取外链，通过 `<img src="..." alt="image">` 展示
   - 开启本地服务器，通过相对路径读取
@@ -192,6 +192,6 @@ Chrome 开发者工具是一套内置于Google Chrome中的Web开发和调试工
     - [调试安全问题](https://developers.google.com/web/tools/chrome-devtools/security)
   - 审查应用(Audits)，可使用 Lighthouse 扩展审查网络应用，为 Lighthouse 提供一个要审查的网址，它将针对此页面运行一连串的测试，然后生成一个有关页面性能的报告
 
-- 快捷键参考
+- 快捷键参考 [TOP](#jp0)
 ![快捷键](http://www.z4a.net/images/2017/09/18/2017-09-17_23-15-00.png)
 
