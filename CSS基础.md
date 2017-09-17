@@ -192,6 +192,7 @@ Chrome 开发者工具是一套内置于Google Chrome中的Web开发和调试工
     - [调试安全问题](https://developers.google.com/web/tools/chrome-devtools/security)
   - 审查应用(Audits)，可使用 Lighthouse 扩展审查网络应用，为 Lighthouse 提供一个要审查的网址，它将针对此页面运行一连串的测试，然后生成一个有关页面性能的报告
 
-- 快捷键参考 [TOP](#jp0)
+- 快捷键参考 [**TOP**](#jp0)
 ![快捷键](http://www.z4a.net/images/2017/09/18/2017-09-17_23-15-00.png)
+[**TOP**](#jp0)
 
