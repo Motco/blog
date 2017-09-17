@@ -7,11 +7,18 @@
 &emsp;&emsp;[6. Chrome 开发者工具](#jp6)
 
 #### <a name="jp1">1. CSS 定义与作用</a>
-- **层叠样式表(Cascading Style Sheets)**，是一种用来为结构化文档（如`HTML`文档或`XML`应用）添加样式（字体、间距和颜色等）的计算机语言，由[**W3C**](https://www.w3.org/)定义和维护。`CSS` 可用来决定文件的颜色、字体、排版等显示特性，最主要的目的是将文件的内容与显示分隔开来，改善文件结构
+- **层叠样式表(Cascading Style Sheets)**，是一种用来为结构化文档（如`HTML`文档或`XML`应用）添加样式（字体、间距和颜色等）的计算机语言，由[**W3C**](https://www.w3.org/)定义和维护。
+- **`CSS` 作用：** 可用来决定文件的颜色、字体、排版等显示特性，最主要的目的是将文件的内容与显示分隔开来，改善文件结构
   - 文件的可读性加强
   - 文件的结构更加简洁
   - 文件的结构更加灵活
   - 作者和读者可以自己决定文件的显示
+- **`CSS` 语法：** `CSS` 规则由两个主要的部分构成：选择器，以及一条或多条声明
+  - 选择器通常是您需要改变样式的 `HTML` 元素
+  - 每条声明由一个属性（property）和一个值（value）组成
+
+&emsp;&emsp;&emsp;![语法](http://www.w3school.com.cn/i/ct_css_selector.gif)<br/>
+&emsp;&emsp;&emsp;`selector {declaration1; declaration2; ... declarationN }`
 
 #### <a name="jp2">2. CSS 引入的3种方式</a>
 - **外部样式表：** 将 `CSS` 保存在一个独立的扩展名为 `.css` 的样式表文件
