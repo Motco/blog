@@ -1,5 +1,5 @@
 ## <a name="jp0">Chrome 开发者工具</a>
- ##### Chrome 开发者工具是一套内置于Google Chrome中的Web开发和调试工具，可用来对网站进行迭代、调试和分析<br/>
+#### Chrome 开发者工具是一套内置于Google Chrome中的Web开发和调试工具，可用来对网站进行迭代、调试和分析<br/>
 *see more at [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/?utm_campaign=2016q3&utm_medium=redirect&utm_source=dcc)*
 - 打开方式
   - 在Chrome菜单中选择 更多工具 > 开发者工具
