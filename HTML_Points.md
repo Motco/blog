@@ -154,7 +154,7 @@
  - **Almost standards mode(aka strict mode)** matches **standards mode** except for one,the layout of images inside table
  cells is handled the same way **quirks mode** operates,which makes the layouts of sliced-images-in-tables stabler in browers.
 
-#### The rendering modes are generally triggering by the presence of **DOCTYPE**.
+#### The rendering modes are generally triggered by the presence of **DOCTYPE**.
  - The factors which will trigger **strict mode**
    - Full **DOCTYPE** is presented: <br/>
  ` $ <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"> <!-- in HTML4 strict DTD --> `<br/> 
