@@ -1,3 +1,6 @@
+title: CSS基础
+---
+
 ## <a name="jp0">CSS 基础</a>
 &emsp;&emsp;[1. CSS 定义与作用](#jp1)<br/>
 &emsp;&emsp;[2. CSS 引入的3种方式](#jp2)<br/>
@@ -143,7 +146,7 @@
   - `b.css` 当前工作目录下的`b.css`文件
   - `../imgs/a.png` 当前工作目录的父目录下的同级目录`imgs`下的`a.png`文件
   - `/Users/hunger/project/css/a.css` 绝对路径，从根目录开始到`a.css`文件
-  - `/static/css/a.css` 服务端相对路径下的`a.css`文件
+  - `/static/css/a.css` 绝对路径，指向服务端当前项目下的`a.css`文件
   - `http://cdn.jirengu.com/kejian1/8-1.png` 绝对路径，指向网域下的`8-1.png`图片
 
 
