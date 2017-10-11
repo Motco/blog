@@ -147,5 +147,5 @@ title: CSS浮动与定位
 
   [「代码1」](http://js.jirengu.com/dovoholuve/1/edit)，
   [「代码2」](http://js.jirengu.com/gufepicano/2/edit)，
-  [「代码3」](http://js.jirengu.com/fivitigelu/2/edit)，
+  [「代码3」](http://js.jirengu.com/xatuyaniba/2/edit)，
   [「代码4」](http://js.jirengu.com/wupimeduru/2/edit)
