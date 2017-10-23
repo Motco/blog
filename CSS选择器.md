@@ -1,12 +1,7 @@
-## <a name="jp0">CSS选择器</a>
-&emsp;&emsp;[1. `class`和`id`的使用](#jp1)<br/>
-&emsp;&emsp;[2. CSS选择器类别](#jp2)<br/>
-&emsp;&emsp;[3. CSS样式优先级](#jp3)<br/>
-&emsp;&emsp;[4. CSS链接的四种状态](#jp4)<br/>
+title: CSS选择器
+---
 
-
-
-#### <a name="jp1">1. `class` 和 `id` 的使用场景</a>
+#### 1. `class` 和 `id` 的使用场景
 - 类选择器（Class selectors）
   - 通过设置元素的 `class` 属性，可以为元素指定类名，类名由开发者自己指定
   - 在写样式表时，类选择器是以英文句号 `.` 开头的
@@ -46,10 +41,10 @@
     ```
 
 
-#### <a name="jp2">2. CSS选择器类别</a> [TOP](#jp0)
-- 选择器的类别<br/>
-  *refer to [Selectors introduction | MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Selectors)*
-  ![53-15.png](http://www.z4a.net/images/2017/09/19/53-15.png)
+#### 2. CSS选择器类别
+- 选择器的类别
+
+  ![1034a12.png](http://www.z4a.net/images/2017/10/10/1034a12.png)
 
 - 常用的选择器
   - 类选择器：`.class {color: lightbule; }`
@@ -61,8 +56,7 @@
     - `p.class.class {color: lightbule; }`
     - `div[class=error] {color: lightbule; }`
 
-- 几种常见伪类选择器<br/>
-  *refer to [Pseudo-classes and pseudo-elements | MDN](https://developer.mozilla.org/zh-CN/docs/Learn/CSS/Introduction_to_CSS/Pseudo-classes_and_pseudo-elements)*
+- 几种常见伪类选择器
   - `:checked`表示任何处于选中状态的`radio`，`checkbox`，或`select`元素中的`option`元素
     + `input[type="radio"]:checked` 表示页面上的所有选中的radio按钮
     + `input[type="checkbox"]:checked` 表示页面上的所有选中的checkbox按钮
@@ -144,9 +138,6 @@
     + 当**点击**可聚焦元素时，会同时触发`:active`和`:focus`；
     + 按照先后定义的优先级规则，若`:focus`位于之后，则会覆盖`:active`使其失效
 
-      *refer to [What is the difference between :focus and :active? | stackoverflow](https://stackoverflow.com/questions/1677990/what-is-the-difference-between-focus-and-active)*
-
-
 - 选择器示例
   ```
     #header{ }                     - - id 为 header 下的所有元素
@@ -165,30 +156,33 @@
     div :first-of-type    - - 匹配 div 元素下每种子元素类别中的第一个元素
   ```
 
-#### <a name="jp3">3. CSS 样式优先级</a> [TOP](#jp0)
-- 一般而言，样式优先级可通过权重来体现，按照 a-b-c-d 的类别及次序计算权重
+  *refer to [What is the difference between :focus and :active? | stackoverflow](https://stackoverflow.com/questions/1677990/what-is-the-difference-between-focus-and-active)，[Pseudo-classes and pseudo-elements | MDN](https://developer.mozilla.org/zh-CN/docs/Learn/CSS/Introduction_to_CSS/Pseudo-classes_and_pseudo-elements)，[Selectors introduction | MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Selectors)*
 
-        *              {}  /* a=0 b=0 c=0 d=0 -> specificity = 0,0,0,0 */
-        li             {}  /* a=0 b=0 c=0 d=1 -> specificity = 0,0,0,1 */
-        li::first-line {}  /* a=0 b=0 c=0 d=2 -> specificity = 0,0,0,2 */
-        ul li          {}  /* a=0 b=0 c=0 d=2 -> specificity = 0,0,0,2 */
-        ul ol+li       {}  /* a=0 b=0 c=0 d=3 -> specificity = 0,0,0,3 */
-        h1 + *[rel=up] {}  /* a=0 b=0 c=1 d=1 -> specificity = 0,0,1,1 */
-        ul ol li.red   {}  /* a=0 b=0 c=1 d=3 -> specificity = 0,0,1,3 */
-        li.red.level   {}  /* a=0 b=0 c=2 d=1 -> specificity = 0,0,2,1 */
-        #x34y          {}  /* a=0 b=1 c=0 d=0 -> specificity = 0,1,0,0 */
-        style=""           /* a=1 b=0 c=0 d=0 -> specificity = 1,0,0,0 */
+#### 3. CSS 样式优先级
+- 一般而言，样式优先级可通过权重来体现，按照 a-b-c-d 的类别及次序计算权重
+  ```
+    *              {}  /* a=0 b=0 c=0 d=0 -> specificity = 0,0,0,0 */
+    li             {}  /* a=0 b=0 c=0 d=1 -> specificity = 0,0,0,1 */
+    li::first-line {}  /* a=0 b=0 c=0 d=2 -> specificity = 0,0,0,2 */
+    ul li          {}  /* a=0 b=0 c=0 d=2 -> specificity = 0,0,0,2 */
+    ul ol+li       {}  /* a=0 b=0 c=0 d=3 -> specificity = 0,0,0,3 */
+    h1 + *[rel=up] {}  /* a=0 b=0 c=1 d=1 -> specificity = 0,0,1,1 */
+    ul ol li.red   {}  /* a=0 b=0 c=1 d=3 -> specificity = 0,0,1,3 */
+    li.red.level   {}  /* a=0 b=0 c=2 d=1 -> specificity = 0,0,2,1 */
+    #x34y          {}  /* a=0 b=1 c=0 d=0 -> specificity = 0,1,0,0 */
+    style=""           /* a=1 b=0 c=0 d=0 -> specificity = 1,0,0,0 */
+  ```
 
   - a：计值 n，0，0，0；指代内联样式
   - b：计值 0，n，0，0；指代`id`选择器
   - c：计值 0，0，n，0；指代其他属性（class，属性选择器）和伪类（pseudo-classes）
-  - d：计值 0，0，0，n；指代标签选择器和伪元素（pseudo-elements）<br/><br/>
-    ***note:***
+  - d：计值 0，0，0，n；指代标签选择器和伪元素（pseudo-elements）
+
+  ***note:***
   - 通配符`*`，子选择器，相邻选择器等，计值 0，0，0，0
   - 类别在前的拥有更高的优先级
   - 同类别中，权重更大的拥有更高的优先级
-  - 同一元素中，后定义的样式规则优先于先定义的<br/><br/>
-    *refer to [specified value | w3](https://www.w3.org/TR/CSS2/cascade.html#specified-value)*
+  - 同一元素中，后定义的样式规则优先于先定义的
 
 - `CSS` 的继承性，指的是应用在一个标签上的那些 `CSS` 属性被传到其子标签上
   - 最近的“祖先样式”比其他“祖先样式”优先级高
@@ -207,7 +201,6 @@
         <div class="son" style="color: blue"></div>
     </div>
     ```
-    *refer to [CSS 样式优先级 | segmentfault](https://segmentfault.com/a/1190000003860309)*
 
 - `!important`规则将优先于其他正常声明的规则，不推荐使用该规则，使用后会破坏正常优先级次序，不利于的debug
   - 应该使用的情况
@@ -229,9 +222,9 @@
       ```
         td { height: 50px !important; }
       ```
-    *refer to [Specificity - CSS | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity)*
+    *refer to [specified value | w3c](https://www.w3.org/TR/CSS2/cascade.html#specified-value)，[Specificity - CSS | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity)，[CSS 样式优先级 | segmentfault](https://segmentfault.com/a/1190000003860309)*
 
-#### <a name="jp4">4. CSS 链接的四种状态</a> [TOP](#jp0)
+#### 4. CSS 链接的四种状态
 - 链接的四种状态
   + `a:link` 未访问的状态
   + `a:visited` 已访问的状态
