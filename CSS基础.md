@@ -1,13 +1,8 @@
-title: CSS基础
+title: CSS 基础
+tags: styleguide, CSS import
 ---
 
-## <a name="jp0">CSS 基础</a>
-&emsp;&emsp;[1. CSS 定义与作用](#jp1)<br/>
-&emsp;&emsp;[2. CSS 引入的3种方式](#jp2)<br/>
-&emsp;&emsp;[3. 书写规范](#jp3)<br/>
-&emsp;&emsp;[4. 文件路径](#jp4)
-
-#### <a name="jp1">1. CSS 定义与作用</a>
+#### 1. CSS 定义与作用
 - **层叠样式表(Cascading Style Sheets)**，是一种用来为结构化文档（如`HTML`文档或`XML`应用）添加样式（字体、间距和颜色等）的计算机语言，由
 [**W3C**](https://www.w3.org/) 定义和维护。
 - **`CSS` 作用：** 可用来决定文件的颜色、字体、排版等显示特性，最主要的目的是将文件的内容与显示分隔开来，改善文件结构
@@ -22,31 +17,21 @@ title: CSS基础
 &emsp;&emsp;&emsp;&emsp;![语法](http://www.w3school.com.cn/i/ct_css_selector.gif)<br/>
 &emsp;&emsp;&emsp;&emsp;`selector {declaration1; declaration2; ... declarationN }`
 
-#### <a name="jp2">2. CSS 引入的3种方式</a>
+#### 2. CSS 引入的3种方式
 - **外部样式表：** 将 `CSS` 保存在一个独立的扩展名为 `.css` 的样式表文件中，再引用该样式表文件的方式有两种
   - 链接式：从HTML的
  `<link>` 元素中引用它。这种方法可以说是最好的，因为你可以使用一个样式表来设置多个文档的样式，并且需要更新 `CSS` 的时候只要在一个地方更新
       ```
         <head>
-            <link rel="stylesheet" type="text/css" href="mystyle.css">
+          <link rel="stylesheet" type="text/css" href="mystyle.css">
         </head>
       ```
-    `mystyle.css`样例：
-      ```
-        body {
-            background-color: lightblue;
-        }
 
-        h1 {
-            color: navy;
-            margin-left: 20px;
-        }
-      ```
   - 导入式：使用 `@import` 导入样式规则，这种方法既可以用在`<style>`标签里；也可以用在外部 `CSS` 文件中，但必须位于开头才能生效
       ```
         <style>
-            @import url("文件路径");
-            @import "style.css";
+          @import url("文件路径");
+          @import "style.css";
         </style>
       ```
   - 两种方式的区别
@@ -63,12 +48,12 @@ title: CSS基础
         <head>
         <style>
         body {
-            background-color: lightblue;
+          background-color: lightblue;
         }
 
         h1 {
-            color: navy;
-            margin-left: 20px;
+          color: navy;
+          margin-left: 20px;
         }
         </style>
         </head>
@@ -80,22 +65,20 @@ title: CSS基础
         <h1 style="color:blue;margin-left:30px;">This is a heading</h1>
     ```
 
-
-
-#### <a name="jp3">3. CSS 书写规范</a>
+#### 3. `CSS` 书写规范
 - 通用格式规范
-  - 缩进，使用`soft tab`（4个空格），不要使用 `tab` 或者混合 `tab` 和空格的缩进
+  - 缩进，使用`soft tab`（2个空格），不要使用 `tab` 或者混合 `tab` 和空格的缩进
     ```
     .selector {
-        margin: 0;
-        padding: 0;
+      margin: 0;
+      padding: 0;
     }
     ```
   - 分号，每个属性定义末尾都要加分号
     ```
     .element {
-        width: 20px;
-        height: 20px;
+      width: 20px;
+      height: 20px;
     }
     ```
   - 需要换行的情况
@@ -116,15 +99,15 @@ title: CSS基础
   - 注释，注释统一用 `/* ... */`
   - 需要加引号的情况
     - 属性的定义统一使用双引号
-    - url的内容要用引号
+    - `url` 的内容要用引号
     ```
     .element:after {
-        content: "";
-        background-image: url("logo.png");
+      content: "";
+      background-image: url("logo.png");
     }
 
     li[data-type="single"] {
-        ...
+      ...
     }
     ```
   - 颜色，使用16进制时用简写的小写字母
@@ -132,10 +115,10 @@ title: CSS基础
   - 去掉小数点前的 0
   - 属性值 `0` 后不要加单位
   - 用 `border: 0;` 代替 `border: none;`
-  - 属性书写顺序，同一 rule set 下属性应按功能分组，并以`布局 > 尺寸 > 文本相关 > 视觉效果` 的顺序书写 <br/><br/>
+  - 属性书写顺序，同一 `rule set` 下属性应按功能分组，并以`布局 > 尺寸 > 文本相关 > 视觉效果` 的顺序书写 <br/><br/>
 *see more at [Code Guide @AlloyTeam](http://alloyteam.github.io/CodeGuide/#css)，[styleguide @fex-team](https://github.com/fex-team/styleguide), [cnblog: 书写规范](http://www.cnblogs.com/iceyhu/p/4424150.html) and [勤奋蜂前端编码规范](https://www.gitbook.com/book/proyang/codeguide/details)*
 
-#### <a name="jp4">4. 文件路径</a> [TOP](#jp0)
+#### 4. 文件路径
 - 如何在饥人谷Js bin中展示图片
   - 上传本地图片到网络图床，获取外链，通过 `<img src="..." alt="image">` 展示或用`CSS`背景图实现
   - 开启本地服务器，通过相对路径读取
@@ -146,7 +129,7 @@ title: CSS基础
   - `b.css` 当前工作目录下的`b.css`文件
   - `../imgs/a.png` 当前工作目录的父目录下的同级目录`imgs`下的`a.png`文件
   - `/Users/hunger/project/css/a.css` 绝对路径，从根目录开始到`a.css`文件
-  - `/static/css/a.css` 绝对路径，指向服务端当前项目下的`a.css`文件
+  - `/static/css/a.css` 绝对路径，从服务端根目录开始到`a.css`文件
   - `http://cdn.jirengu.com/kejian1/8-1.png` 绝对路径，指向网域下的`8-1.png`图片
 
 
